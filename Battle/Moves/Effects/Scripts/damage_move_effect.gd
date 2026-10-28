@@ -2,7 +2,7 @@ class_name DamageMoveEffect
 extends MoveEffect
 
 
-func apply(turn: Turn, _battle_system: BattleSystem) -> void:
+func apply(turn: Turn) -> void:
 	var amount: int
 	var pokemon_target: BattlePokemon = turn.target
 	var pokemon_user: BattlePokemon = turn.attacker
@@ -10,9 +10,14 @@ func apply(turn: Turn, _battle_system: BattleSystem) -> void:
 	if not pokemon_user.can_attack:
 		print(pokemon_user.name, " can't attack!")
 		return
-	# if pokemon_user.current_power_points <= 0:
-	# 	print(pokemon_user.name, " has no power points!")
-	# 	return
+	if move.current_power_points <= 0:
+		print(
+			pokemon_user.name,
+			"tried to use the move \"",
+			move.name,
+			"\" but it hasn't power points left!",
+		)
+		return
 	match move.category:
 		move.Category.PHYSIC:
 			amount = (pokemon_user.attack / float(pokemon_target.defense)) * move.power

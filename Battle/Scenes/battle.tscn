@@ -1,57 +1,67 @@
-[gd_scene load_steps=13 format=3 uid="uid://cjjksilsyi2ow"]
+[gd_scene format=3 uid="uid://cjjksilsyi2ow"]
 
 [ext_resource type="Script" uid="uid://37iqtprxta3e" path="res://Battle/Scripts/battle.gd" id="1_svcua"]
 [ext_resource type="Resource" uid="uid://561qg1mbanvc" path="res://Pokemon/Resources/BaseStats/zigzagoon_basestats.tres" id="2_dx0jj"]
 [ext_resource type="Resource" uid="uid://ebl3dhuqw0vq" path="res://Pokemon/Resources/Info/zigzagoon_info.tres" id="3_q7gvw"]
 [ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="4_dx0jj"]
-[ext_resource type="Resource" uid="uid://dykn5awdp3sqa" path="res://Battle/Moves/Resources/water_gun_move.tres" id="5_wbf6k"]
-[ext_resource type="Resource" uid="uid://mkc44bt6q13w" path="res://Battle/Moves/Resources/tackle_move.tres" id="6_roa45"]
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="5_v31i1"]
 [ext_resource type="Script" uid="uid://jwv5a1145keh" path="res://Pokemon/Scripts/pokemon_resource.gd" id="7_xs44a"]
-[ext_resource type="Script" uid="uid://bv4x6ps4x1myu" path="res://Pokemon/Types/Scripts/type_resource.gd" id="8_37tnd"]
-[ext_resource type="Resource" uid="uid://bba02uoj8ayoe" path="res://Pokemon/Types/Resources/normal.tres" id="9_14abp"]
 [ext_resource type="Resource" uid="uid://dk6recq5y20to" path="res://Pokemon/Resources/Pokemon/mudkip.tres" id="10_nyqyo"]
 [ext_resource type="Script" uid="uid://cjn055dp721th" path="res://Battle/UI/Scripts/ui_move_buttons.gd" id="11_cdkk7"]
+
+[sub_resource type="Resource" id="Resource_mwu74"]
+script = ExtResource("4_dx0jj")
+name = "water gun"
+power = 40
+category = 1
+metadata/_custom_type_script = "uid://dgxndfyv3l1lg"
+
+[sub_resource type="Resource" id="Resource_rci02"]
+script = ExtResource("4_dx0jj")
+name = "tackle"
+power = 40
+metadata/_custom_type_script = "uid://dgxndfyv3l1lg"
 
 [sub_resource type="Resource" id="Resource_hceed"]
 script = ExtResource("7_xs44a")
 info = ExtResource("3_q7gvw")
 base_stats = ExtResource("2_dx0jj")
-types = Array[ExtResource("8_37tnd")]([ExtResource("9_14abp")])
-learnset = Array[ExtResource("4_dx0jj")]([ExtResource("5_wbf6k"), ExtResource("6_roa45")])
+types = Array[int]([0])
+learnset = Array[ExtResource("4_dx0jj")]([SubResource("Resource_mwu74"), SubResource("Resource_rci02")])
 metadata/_custom_type_script = "uid://jwv5a1145keh"
 
-[node name="Node2D" type="Node2D"]
+[node name="Node2D" type="Node2D" unique_id=443772293]
 
-[node name="BattleSystem" type="Node" parent="." node_paths=PackedStringArray("move_buttons")]
+[node name="BattleSystem" type="Node" parent="." unique_id=77423264 node_paths=PackedStringArray("move_buttons")]
 script = ExtResource("1_svcua")
 move_buttons = NodePath("../CanvasLayer/CenterContainer/MoveButtons")
 pokemon_foe_resource = SubResource("Resource_hceed")
 pokemon_user_resource = ExtResource("10_nyqyo")
 
-[node name="CanvasLayer" type="CanvasLayer" parent="."]
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=1497556382]
 
-[node name="CenterContainer" type="CenterContainer" parent="CanvasLayer"]
+[node name="CenterContainer" type="CenterContainer" parent="CanvasLayer" unique_id=677780674]
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 
-[node name="MoveButtons" type="GridContainer" parent="CanvasLayer/CenterContainer"]
+[node name="MoveButtons" type="GridContainer" parent="CanvasLayer/CenterContainer" unique_id=753672926]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
 columns = 2
 script = ExtResource("11_cdkk7")
 
-[node name="MoveButton" type="Button" parent="CanvasLayer/CenterContainer/MoveButtons"]
+[node name="MoveButton" type="Button" parent="CanvasLayer/CenterContainer/MoveButtons" unique_id=1659567087]
 layout_mode = 2
 
-[node name="MoveButton2" type="Button" parent="CanvasLayer/CenterContainer/MoveButtons"]
+[node name="MoveButton2" type="Button" parent="CanvasLayer/CenterContainer/MoveButtons" unique_id=609456457]
 layout_mode = 2
 
-[node name="MoveButton3" type="Button" parent="CanvasLayer/CenterContainer/MoveButtons"]
+[node name="MoveButton3" type="Button" parent="CanvasLayer/CenterContainer/MoveButtons" unique_id=928338470]
 layout_mode = 2
 
-[node name="MoveButton4" type="Button" parent="CanvasLayer/CenterContainer/MoveButtons"]
+[node name="MoveButton4" type="Button" parent="CanvasLayer/CenterContainer/MoveButtons" unique_id=1371128833]
 layout_mode = 2

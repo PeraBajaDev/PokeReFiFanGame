@@ -44,7 +44,8 @@ func resolve_turn(move_name: String) -> void:
 		var attacker_status_conditions := attacker.get_all_current_status_conditions()
 		for status: StatusCondition in attacker_status_conditions:
 			status.on_before_move(turn)
-		move.effect.apply(turn, self)
+		for effect: MoveEffect in move.effects:
+			effect.apply(turn)
 		for status: StatusCondition in attacker_status_conditions:
 			status.on_after_move(turn)
 

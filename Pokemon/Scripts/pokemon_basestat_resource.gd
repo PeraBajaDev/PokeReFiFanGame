@@ -2,7 +2,7 @@
 class_name PokemonBaseStatsResource
 extends Resource
 
-const MAX_STATS := 600
+const MAX_STATS := 1300
 
 @export var unnused_points: int
 

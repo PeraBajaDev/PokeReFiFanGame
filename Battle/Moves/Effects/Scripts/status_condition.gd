@@ -4,7 +4,7 @@ class_name StatusCondition
 var turns_left := INF
 
 
-func on_turn_start(pokemon_user: BattlePokemon, pokemon_foe: BattlePokemon) -> void:
+func on_turn_start(_pokemon_user: BattlePokemon, _pokemon_foe: BattlePokemon) -> void:
 	pass
 
 
