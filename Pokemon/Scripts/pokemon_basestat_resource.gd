@@ -15,35 +15,35 @@ const MAX_STATS := 600
 		notify_property_list_changed()
 @export_range(1, MAX_STATS, 1) var attack: int:
 	set(value):
-		if would_max_stats_exedded(2, value):
+		if would_max_stats_exedded(1, value):
 			push_error("The max stat limit has been exedded")
 			return
 		attack = value if value >= 1 else 1
 		notify_property_list_changed()
 @export_range(1, MAX_STATS, 1) var defense: int:
 	set(value):
-		if would_max_stats_exedded(3, value):
+		if would_max_stats_exedded(2, value):
 			push_error("The max stat limit has been exedded")
 			return
 		defense = value if value >= 1 else 1
 		notify_property_list_changed()
 @export_range(1, MAX_STATS, 1) var special_attack: int:
 	set(value):
-		if would_max_stats_exedded(4, value):
+		if would_max_stats_exedded(3, value):
 			push_error("The max stat limit has been exedded")
 			return
 		special_attack = value if value >= 1 else 1
 		notify_property_list_changed()
 @export_range(1, MAX_STATS, 1) var special_defense: int:
 	set(value):
-		if would_max_stats_exedded(5, value):
+		if would_max_stats_exedded(4, value):
 			push_error("The max stat limit has been exedded")
 			return
 		special_defense = value if value >= 1 else 1
 		notify_property_list_changed()
 @export_range(1, MAX_STATS, 1) var speed: int:
 	set(value):
-		if would_max_stats_exedded(6, value):
+		if would_max_stats_exedded(5, value):
 			push_error("The max stat limit has been exedded")
 			return
 		speed = value if value >= 1 else 1
