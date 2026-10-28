@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="PokemonBaseStatsResource" load_steps=2 format=3 uid="uid://561qg1mbanvc"]
+
+[ext_resource type="Script" uid="uid://d1neeojjce3os" path="res://Pokemon/Scripts/pokemon_basestat_resource.gd" id="1_de3nu"]
+
+[resource]
+script = ExtResource("1_de3nu")
+unnused_points = 60
+health_points = 70
+power_points = 50
+attack = 90
+defense = 120
+special_attack = 60
+special_defense = 100
+speed = 50
+metadata/_custom_type_script = "uid://d1neeojjce3os"

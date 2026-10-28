@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="PokemonInfoResource" load_steps=2 format=3 uid="uid://ebl3dhuqw0vq"]
+
+[ext_resource type="Script" uid="uid://bd6ljbhr4fiwj" path="res://Pokemon/Scripts/pokemon_info_resource.gd" id="1_r1wjw"]
+
+[resource]
+script = ExtResource("1_r1wjw")
+id = 258
+name = "Zigzagoon"
+metadata/_custom_type_script = "uid://bd6ljbhr4fiwj"

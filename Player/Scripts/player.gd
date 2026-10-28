@@ -45,7 +45,7 @@ func move(move_dir: Vector3) -> void:
 		Tween.TRANS_LINEAR
 	)
 	tween.finished.connect(
-		func():
+		func() -> void:
 			is_moving = false
 			sprite.stop(),
 	)

@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=10 format=3 uid="uid://dk6recq5y20to"]
+
+[ext_resource type="Resource" uid="uid://dm7x2n8t7ovfk" path="res://Pokemon/Resources/BaseStats/mudkip_basestats.tres" id="1_k4f53"]
+[ext_resource type="Resource" uid="uid://b2jacosoi3xpx" path="res://Pokemon/Resources/Info/mudkip_info.tres" id="2_cktjy"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="3_vjsbw"]
+[ext_resource type="Script" uid="uid://jwv5a1145keh" path="res://Pokemon/Scripts/pokemon_resource.gd" id="4_dwcq3"]
+[ext_resource type="Resource" uid="uid://dykn5awdp3sqa" path="res://Battle/Moves/Resources/water_gun_move.tres" id="4_vjsbw"]
+[ext_resource type="Resource" uid="uid://mkc44bt6q13w" path="res://Battle/Moves/Resources/tackle_move.tres" id="5_hlhki"]
+[ext_resource type="Script" uid="uid://bv4x6ps4x1myu" path="res://Pokemon/Types/Scripts/type_resource.gd" id="5_vjsbw"]
+[ext_resource type="Resource" uid="uid://celeqfofutdo8" path="res://Battle/Moves/Resources/hypnosis_move.tres" id="6_hlhki"]
+[ext_resource type="Resource" uid="uid://b64cw0fgxxw27" path="res://Pokemon/Types/Resources/water.tres" id="8_j6tu2"]
+
+[resource]
+script = ExtResource("4_dwcq3")
+info = ExtResource("2_cktjy")
+base_stats = ExtResource("1_k4f53")
+types = Array[ExtResource("5_vjsbw")]([ExtResource("8_j6tu2")])
+learnset = Array[ExtResource("3_vjsbw")]([ExtResource("4_vjsbw"), ExtResource("5_hlhki"), ExtResource("6_hlhki")])
+metadata/_custom_type_script = "uid://jwv5a1145keh"

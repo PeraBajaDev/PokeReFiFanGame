@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://wild7viqxyke"]
 
 [ext_resource type="Texture2D" uid="uid://bc3qlyrcrffb" path="res://Sprites/walk_up_red.png" id="1_71jk5"]
-[ext_resource type="Script" uid="uid://c8gk2rfiorrre" path="res://Scripts/player.gd" id="1_rcdd3"]
+[ext_resource type="Script" uid="uid://c8gk2rfiorrre" path="res://Player/Scripts/player.gd" id="1_i2p14"]
 [ext_resource type="Texture2D" uid="uid://bjao8o4s1vpke" path="res://Sprites/walk_down_red.png" id="2_i2p14"]
 [ext_resource type="Texture2D" uid="uid://d3gc4irv4sod" path="res://Sprites/walk_laterals.png" id="3_2tsr8"]
 [ext_resource type="Script" uid="uid://ucjabhskv4dm" path="res://player_animated_sprite.gd" id="3_i5a71"]
@@ -166,7 +166,7 @@ metadata/_editor_floor_ = Vector3(0, 0, 0)
 
 [node name="CharacterBody3D" type="CharacterBody3D" parent="." unique_id=1040167223]
 motion_mode = 1
-script = ExtResource("1_rcdd3")
+script = ExtResource("1_i2p14")
 tile_size = 0.32
 move_speed = 2.0
 

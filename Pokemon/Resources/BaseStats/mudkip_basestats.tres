@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="PokemonBaseStatsResource" load_steps=2 format=3 uid="uid://dm7x2n8t7ovfk"]
+
+[ext_resource type="Script" uid="uid://d1neeojjce3os" path="res://Pokemon/Scripts/pokemon_basestat_resource.gd" id="1_vm78t"]
+
+[resource]
+script = ExtResource("1_vm78t")
+health_points = 70
+power_points = 50
+attack = 70
+defense = 100
+special_attack = 150
+special_defense = 100
+speed = 60
+metadata/_custom_type_script = "uid://d1neeojjce3os"

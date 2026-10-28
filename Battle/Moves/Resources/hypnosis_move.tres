@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=5 format=3 uid="uid://celeqfofutdo8"]
+
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="1_eap0t"]
+[ext_resource type="Script" uid="uid://leir80wk2ia5" path="res://Battle/Moves/Effects/Scripts/sleep_effect.gd" id="1_mholx"]
+[ext_resource type="Resource" uid="uid://bba02uoj8ayoe" path="res://Pokemon/Types/Resources/normal.tres" id="3_r6ylx"]
+
+[sub_resource type="Resource" id="Resource_r6ylx"]
+script = ExtResource("1_mholx")
+metadata/_custom_type_script = "uid://leir80wk2ia5"
+
+[resource]
+script = ExtResource("1_eap0t")
+name = "Hypnosis"
+power_points_cost = 5
+type = ExtResource("3_r6ylx")
+category = 2
+effect = SubResource("Resource_r6ylx")
+metadata/_custom_type_script = "uid://dgxndfyv3l1lg"
