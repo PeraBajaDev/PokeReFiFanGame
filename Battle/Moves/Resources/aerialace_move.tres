@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://yfx7o2c8fjwd"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_n4a02"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_21do7"]
+
+[resource]
+script = ExtResource("2_21do7")
+name = &"Aerial Ace"
+power = 60
+max_power_points = 20
+description = "The user confounds the foe with speed, then slashes. The attack lands without fail."
+type = 9
+flags = Array[String](["Contact", "CanProtect", "CanMirrorMove"])

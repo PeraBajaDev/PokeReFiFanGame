@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://n0j13u1iory7"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_kdiil"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_fkwxu"]
+
+[resource]
+script = ExtResource("2_fkwxu")
+name = &"Fire Blast"
+power = 110
+accuracy = 85
+max_power_points = 5
+description = "The foe is attacked with an intense blast of all-consuming fire. It may also leave the target with a burn."
+type = 1
+category = 1
+effect_chanche = 10
+flags = Array[String](["CanProtect", "CanMirrorMove"])

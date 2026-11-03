@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://bdu87u1gw575i"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_2wli4"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_l0a1v"]
+
+[resource]
+script = ExtResource("2_l0a1v")
+name = &"Head Charge"
+power = 120
+accuracy = 100
+max_power_points = 15
+description = "The user charges its head into the foe, using its powerful guard hair. The user also takes damage."
+flags = Array[String](["Contact", "CanProtect", "CanMirrorMove"])

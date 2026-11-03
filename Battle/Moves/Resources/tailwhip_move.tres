@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://cjl55f4qaax8s"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_2xfsv"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_aqfsd"]
+
+[resource]
+script = ExtResource("2_aqfsd")
+name = &"Tail Whip"
+accuracy = 100
+max_power_points = 30
+description = "The user wags its tail cutely, making opposing Pokémon less wary and lowering their Defense stat."
+category = 2
+flags = Array[String](["CanProtect", "CanMirrorMove"])

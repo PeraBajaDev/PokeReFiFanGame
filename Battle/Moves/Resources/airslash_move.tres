@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://drpnnb3jrxktc"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_3sos3"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_l1v8s"]
+
+[resource]
+script = ExtResource("2_l1v8s")
+name = &"Air Slash"
+power = 75
+accuracy = 95
+max_power_points = 15
+description = "The user attacks with a blade of air that slices even the sky. It may also make the target flinch."
+type = 9
+category = 1
+effect_chanche = 30
+flags = Array[String](["CanProtect", "CanMirrorMove"])

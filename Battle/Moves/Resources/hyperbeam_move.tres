@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://c5ab65if2kq40"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_8rhml"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_6stk7"]
+
+[resource]
+script = ExtResource("2_6stk7")
+name = &"Hyper Beam"
+power = 150
+accuracy = 90
+max_power_points = 5
+description = "The foe is attacked with a powerful beam. The user must rest on the next turn to regain its energy."
+category = 1
+flags = Array[String](["CanProtect", "CanMirrorMove"])

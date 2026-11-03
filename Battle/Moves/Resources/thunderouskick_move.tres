@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://4fd76388lm5n"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_je4vo"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_bheic"]
+
+[resource]
+script = ExtResource("2_bheic")
+name = &"Thunderous Kick"
+power = 90
+accuracy = 100
+max_power_points = 10
+description = "Overwhelms the target with lightning-like movement, then kicks. Lowers the target's Defense stat."
+type = 6
+effect_chanche = 100
+flags = Array[String](["Contact", "CanProtect", "CanMirrorMove", "CannotMetronome"])

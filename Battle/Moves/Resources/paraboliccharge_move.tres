@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://h7ovv7ll2770"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_oout1"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_hlw4v"]
+
+[resource]
+script = ExtResource("2_hlw4v")
+name = &"Parabolic Charge"
+power = 65
+accuracy = 100
+max_power_points = 20
+description = "The user attacks everything around it. The user's HP is restored by half the damage dealt."
+type = 3
+category = 1
+flags = Array[String](["CanProtect", "CanMirrorMove"])

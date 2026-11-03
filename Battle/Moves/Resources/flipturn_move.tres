@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://bk0l76xodhlru"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_s8l87"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_1tew0"]
+
+[resource]
+script = ExtResource("2_1tew0")
+name = &"Flip Turn"
+power = 60
+accuracy = 100
+max_power_points = 20
+description = "After making its attack, the user rushes back to switch places with a party Pokémon in waiting."
+type = 2
+flags = Array[String](["Contact", "CanProtect", "CanMirrorMove"])

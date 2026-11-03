@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://c2eksr2vo7br"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_8h5ms"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_bj16c"]
+
+[resource]
+script = ExtResource("2_bj16c")
+name = &"Psycho Boost"
+power = 140
+accuracy = 90
+max_power_points = 5
+description = "The user attacks the target at full power. The attack's recoil harshly reduces the user's Sp. Atk stat."
+type = 10
+category = 1
+flags = Array[String](["CanProtect", "CanMirrorMove"])

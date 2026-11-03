@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://smih6vaq5r4i"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_0h6ag"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_nloy0"]
+
+[resource]
+script = ExtResource("2_nloy0")
+name = &"Feint Attack"
+power = 60
+max_power_points = 20
+description = "The user draws up to the foe disarmingly, then throws a sucker punch. It hits without fail."
+type = 15
+flags = Array[String](["Contact", "CanProtect", "CanMirrorMove"])

@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://8lhw1inhva4m"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_wekg4"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_nf3c8"]
+
+[resource]
+script = ExtResource("2_nf3c8")
+name = &"Bide"
+power = 1
+max_power_points = 10
+description = "The user endures attacks for two turns, then strikes back to cause double the damage taken."
+priority = 1
+flags = Array[String](["Contact", "CanProtect"])

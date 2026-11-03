@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://ricl0i3y517v"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_gv10r"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_wxko6"]
+
+[resource]
+script = ExtResource("2_wxko6")
+name = &"Icicle Spear"
+power = 25
+accuracy = 100
+max_power_points = 30
+description = "The user launches sharp icicles at the target. It strikes two to five times in a row."
+type = 5
+flags = Array[String](["CanProtect", "CanMirrorMove"])

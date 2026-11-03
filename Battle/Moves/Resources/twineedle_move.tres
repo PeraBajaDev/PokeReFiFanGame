@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://dm6vwcrmkyaso"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_hr71b"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_8ml3i"]
+
+[resource]
+script = ExtResource("2_8ml3i")
+name = &"Twineedle"
+power = 25
+accuracy = 100
+max_power_points = 20
+description = "The foe is stabbed twice by a pair of stingers. It may also poison the target."
+type = 11
+effect_chanche = 20
+flags = Array[String](["CanProtect", "CanMirrorMove"])

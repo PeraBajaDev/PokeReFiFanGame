@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://b7dwpy5myi4yw"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_7qmc5"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_e03th"]
+
+[resource]
+script = ExtResource("2_e03th")
+name = &"Absorb"
+power = 20
+accuracy = 100
+max_power_points = 25
+description = "A nutrient-draining attack. The user's HP is restored by half the damage taken by the target."
+type = 4
+category = 1
+flags = Array[String](["CanProtect", "CanMirrorMove"])

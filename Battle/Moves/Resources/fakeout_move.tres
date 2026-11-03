@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://teypbhwr4ljx"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_jkkaw"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_tc1ae"]
+
+[resource]
+script = ExtResource("2_tc1ae")
+name = &"Fake Out"
+power = 40
+accuracy = 100
+max_power_points = 10
+description = "An attack that hits first and makes the target flinch. It only works the first turn the user is in battle."
+effect_chanche = 100
+priority = 3
+flags = Array[String](["Contact", "CanProtect", "CanMirrorMove"])

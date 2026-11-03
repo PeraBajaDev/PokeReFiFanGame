@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://bd5bjcqc872uh"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_3u4q2"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_fvrap"]
+
+[resource]
+script = ExtResource("2_fvrap")
+name = &"Charm"
+accuracy = 100
+max_power_points = 20
+description = "The user charmingly gazes at the foe, making it less wary. The target's Attack is harshly lowered."
+type = 17
+category = 2
+flags = Array[String](["CanProtect", "CanMirrorMove"])

@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://b82ulp7y20u7h"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_d2tbl"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_urhgq"]
+
+[resource]
+script = ExtResource("2_urhgq")
+name = &"Rock Slide"
+power = 75
+accuracy = 90
+max_power_points = 10
+description = "Large boulders are hurled at the foes to inflict damage. It may also make the targets flinch."
+type = 12
+effect_chanche = 30
+flags = Array[String](["CanProtect", "CanMirrorMove"])

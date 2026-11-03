@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://douhu6kw2ycoc"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_soet8"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_ve4qq"]
+
+[resource]
+script = ExtResource("2_ve4qq")
+name = &"Leaf Blade"
+power = 90
+accuracy = 100
+max_power_points = 15
+description = "The user handles a sharp leaf like a sword and attacks by slashing. It has a high critical-hit ratio."
+type = 4
+flags = Array[String](["Contact", "CanProtect", "CanMirrorMove", "HighCriticalHitRate"])

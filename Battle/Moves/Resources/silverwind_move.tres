@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://dg7euwu377ps4"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_wkv4n"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_pgv1f"]
+
+[resource]
+script = ExtResource("2_pgv1f")
+name = &"Silver Wind"
+power = 60
+accuracy = 100
+max_power_points = 5
+description = "The foe is attacked with powdery scales blown by wind. It may also raise all the user's stats."
+type = 11
+category = 1
+effect_chanche = 10
+flags = Array[String](["CanProtect", "CanMirrorMove"])

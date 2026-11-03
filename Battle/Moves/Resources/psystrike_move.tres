@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://b4txiygcedidc"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_gh4jc"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_04ffw"]
+
+[resource]
+script = ExtResource("2_04ffw")
+name = &"Psystrike"
+power = 100
+accuracy = 100
+max_power_points = 10
+description = "The user materializes an odd psychic wave to attack the target. This attack does physical damage."
+type = 10
+category = 1
+flags = Array[String](["CanProtect", "CanMirrorMove"])

@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://cxd2hoe8tgnm1"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_gebfs"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_8230s"]
+
+[resource]
+script = ExtResource("2_8230s")
+name = &"Heal Pulse"
+max_power_points = 10
+description = "The user emits a healing pulse which restores the target's HP by up to half of its max HP."
+type = 10
+category = 2
+flags = Array[String](["CanProtect", "Pulse"])

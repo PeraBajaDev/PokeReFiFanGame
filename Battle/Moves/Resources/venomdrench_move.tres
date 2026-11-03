@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://dhfiy1ksb3rsv"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_7q0lb"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_wrtj2"]
+
+[resource]
+script = ExtResource("2_wrtj2")
+name = &"Venom Drench"
+accuracy = 100
+max_power_points = 20
+description = "Foes are drenched in an odd liquid that lowers the Attack, Sp. Atk, and Speed of poisoned Pokémon."
+type = 7
+category = 2
+flags = Array[String](["CanProtect"])

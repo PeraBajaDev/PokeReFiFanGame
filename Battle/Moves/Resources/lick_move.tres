@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://d0ef3duvb348a"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_m5006"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_mrdt3"]
+
+[resource]
+script = ExtResource("2_mrdt3")
+name = &"Lick"
+power = 30
+accuracy = 100
+max_power_points = 30
+description = "The target is licked with a long tongue, causing damage. It may also leave the target with paralysis."
+type = 13
+effect_chanche = 30
+flags = Array[String](["Contact", "CanProtect", "CanMirrorMove"])

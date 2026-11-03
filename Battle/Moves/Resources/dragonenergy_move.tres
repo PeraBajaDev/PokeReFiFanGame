@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://b0pcfp4b3328c"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_atgfs"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_jwubd"]
+
+[resource]
+script = ExtResource("2_jwubd")
+name = &"Dragon Energy"
+power = 150
+accuracy = 100
+max_power_points = 5
+description = "Converts life-force into power to attack. The lower the user's HP, the lower the move's power."
+type = 14
+category = 1
+flags = Array[String](["CanProtect", "CanMirrorMove", "CannotMetronome"])

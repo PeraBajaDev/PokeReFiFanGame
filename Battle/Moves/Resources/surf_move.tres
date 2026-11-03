@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://c3aq1g0oxx267"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_0khwu"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_x2b2e"]
+
+[resource]
+script = ExtResource("2_x2b2e")
+name = &"Surf"
+power = 90
+accuracy = 100
+max_power_points = 15
+description = "It swamps the area around the user with a giant wave. It can also be used for crossing water."
+type = 2
+category = 1
+flags = Array[String](["CanProtect", "CanMirrorMove"])

@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://dhihb3vxw5akc"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_wjqxo"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_it40n"]
+
+[resource]
+script = ExtResource("2_it40n")
+name = &"Nature\'s Madness"
+power = 1
+accuracy = 90
+max_power_points = 10
+description = "The user hits the target with the force of nature. It halves the target's HP."
+type = 17
+category = 1
+flags = Array[String](["CanProtect", "CanMirrorMove", "CannotMetronome"])

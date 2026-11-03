@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://dwa1wkrtha1d0"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_1c6ve"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_lxjjn"]
+
+[resource]
+script = ExtResource("2_lxjjn")
+name = &"Worry Seed"
+accuracy = 100
+max_power_points = 10
+description = "A seed that causes worry is planted on the foe. It prevents sleep by making its Ability Insomnia."
+type = 4
+category = 2
+flags = Array[String](["CanProtect", "CanMirrorMove"])

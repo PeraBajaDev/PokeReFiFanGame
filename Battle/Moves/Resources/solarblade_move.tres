@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://chau0lujv52hj"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_3jv5e"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_pkk8j"]
+
+[resource]
+script = ExtResource("2_pkk8j")
+name = &"Solar Blade"
+power = 125
+accuracy = 100
+max_power_points = 10
+description = "The user gathers light energy into a blade, attacking the target on the next turn."
+type = 4
+flags = Array[String](["Contact", "CanProtect", "CanMirrorMove"])

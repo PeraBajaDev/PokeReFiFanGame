@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://d3o44x8rbmbwt"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_v6pbu"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_4p6sa"]
+
+[resource]
+script = ExtResource("2_4p6sa")
+name = &"Petal Dance"
+power = 120
+accuracy = 100
+max_power_points = 10
+description = "The user attacks by scattering petals for two to three turns. The user then becomes confused."
+type = 4
+category = 1
+flags = Array[String](["Contact", "CanProtect", "CanMirrorMove", "Dance"])

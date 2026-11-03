@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://buxdo2bh41tuv"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_yccw3"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_k4u4g"]
+
+[resource]
+script = ExtResource("2_k4u4g")
+name = &"Rage"
+power = 20
+accuracy = 100
+max_power_points = 20
+description = "As long as this move is in use, the user's Attack rises each time the user is hit in battle."
+flags = Array[String](["Contact", "CanProtect", "CanMirrorMove"])

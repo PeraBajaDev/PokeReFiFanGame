@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://b4a6uden56cm1"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_vkkna"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_ttso7"]
+
+[resource]
+script = ExtResource("2_ttso7")
+name = &"Stone Edge"
+power = 100
+accuracy = 80
+max_power_points = 5
+description = "The user stabs the foe with sharpened stones from below. It has a high critical-hit ratio."
+type = 12
+flags = Array[String](["CanProtect", "CanMirrorMove", "HighCriticalHitRate"])

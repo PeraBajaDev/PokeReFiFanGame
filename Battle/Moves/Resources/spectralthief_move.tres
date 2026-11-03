@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://hi6gavbfxcgi"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_ybg16"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_bxdfc"]
+
+[resource]
+script = ExtResource("2_bxdfc")
+name = &"Spectral Thief"
+power = 90
+accuracy = 100
+max_power_points = 10
+description = "The user hides in the target's shadow, steals the target's stat boosts, and then attacks."
+type = 13
+flags = Array[String](["Contact", "CanProtect", "CanMirrorMove", "CannotMetronome"])

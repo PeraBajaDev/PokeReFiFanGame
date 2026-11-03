@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://bvtl8u6haa0i6"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_7y0uq"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_hxauq"]
+
+[resource]
+script = ExtResource("2_hxauq")
+name = &"Conversion 2"
+max_power_points = 30
+description = "The user changes its type to make itself resistant to the type of the attack the opponent used last."
+category = 2

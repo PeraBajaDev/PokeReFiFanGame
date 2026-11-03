@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://ejmk022iapol"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_vobqm"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_2l6er"]
+
+[resource]
+script = ExtResource("2_2l6er")
+name = &"Blizzard"
+power = 110
+accuracy = 70
+max_power_points = 5
+description = "A howling blizzard is summoned to strike the opposing team. It may also freeze them solid."
+type = 5
+category = 1
+effect_chanche = 10
+flags = Array[String](["CanProtect", "CanMirrorMove"])

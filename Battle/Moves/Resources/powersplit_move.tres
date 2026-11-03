@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://drmuct27glhxg"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_cpl80"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_7gumx"]
+
+[resource]
+script = ExtResource("2_7gumx")
+name = &"Power Split"
+max_power_points = 10
+description = "The user employs its psychic power to average its Attack and Sp. Atk stats with those of the target."
+type = 10
+category = 2
+flags = Array[String](["CanProtect"])

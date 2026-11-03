@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://3lpxwq43k5bh"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_yat53"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_6l3wr"]
+
+[resource]
+script = ExtResource("2_6l3wr")
+name = &"Tar Shot"
+accuracy = 100
+max_power_points = 15
+description = "Pours sticky tar over the target, lowering its Speed and making it weaker to Fire-type moves."
+type = 12
+category = 2
+flags = Array[String](["CanProtect", "CanMirrorMove"])

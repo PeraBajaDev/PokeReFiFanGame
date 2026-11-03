@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://ibdvbkfjysj"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_5lqja"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_wp3hf"]
+
+[resource]
+script = ExtResource("2_wp3hf")
+name = &"Judgment"
+power = 100
+accuracy = 100
+max_power_points = 10
+description = "The user releases countless shots of light. Its type varies with the kind of Plate the user is holding."
+category = 1
+flags = Array[String](["CanProtect", "CanMirrorMove"])

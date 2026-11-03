@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://cdeswtucn0x1u"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_jq07f"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_cqarb"]
+
+[resource]
+script = ExtResource("2_cqarb")
+name = &"Outrage"
+power = 120
+accuracy = 100
+max_power_points = 10
+description = "The user rampages and attacks for two to three turns. It then becomes confused, however."
+type = 14
+flags = Array[String](["Contact", "CanProtect", "CanMirrorMove"])

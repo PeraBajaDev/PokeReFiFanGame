@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://d26v7jjtgssbq"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_b4r8o"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_rwuo3"]
+
+[resource]
+script = ExtResource("2_rwuo3")
+name = &"Return"
+power = 1
+accuracy = 100
+max_power_points = 20
+description = "A full-power attack that grows more powerful the more the user likes its Trainer."
+flags = Array[String](["Contact", "CanProtect", "CanMirrorMove"])

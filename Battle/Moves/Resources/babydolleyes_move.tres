@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://ke13r8y3t1vh"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_1d03o"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_62hq5"]
+
+[resource]
+script = ExtResource("2_62hq5")
+name = &"Baby-Doll Eyes"
+accuracy = 100
+max_power_points = 30
+description = "The user stares with its baby-doll eyes, which lowers the target's Attack stat. Always goes first."
+type = 17
+category = 2
+priority = 1
+flags = Array[String](["CanProtect", "CanMirrorMove"])

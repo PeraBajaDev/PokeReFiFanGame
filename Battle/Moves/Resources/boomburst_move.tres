@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://cx0tvs31ouuw7"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_ygyey"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_m2hf8"]
+
+[resource]
+script = ExtResource("2_m2hf8")
+name = &"Boomburst"
+power = 140
+accuracy = 100
+max_power_points = 10
+description = "The user attacks everything around it with the destructive power of a terrible, explosive sound."
+category = 1
+flags = Array[String](["CanProtect", "CanMirrorMove", "Sound"])

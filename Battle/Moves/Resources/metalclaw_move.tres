@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://ccwwolq3lhtpe"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_a2lyj"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_h4811"]
+
+[resource]
+script = ExtResource("2_h4811")
+name = &"Metal Claw"
+power = 50
+accuracy = 95
+max_power_points = 35
+description = "The target is raked with steel claws. It may also raise the user's Attack stat."
+type = 16
+effect_chanche = 10
+flags = Array[String](["Contact", "CanProtect", "CanMirrorMove"])

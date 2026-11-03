@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://ccqumlf8fjnn4"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_r7pwe"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_hjhub"]
+
+[resource]
+script = ExtResource("2_hjhub")
+name = &"Chip Away"
+power = 70
+accuracy = 100
+max_power_points = 20
+description = "Seeking an opening, the user strikes continually. The foe's stat changes don't affect the damage."
+flags = Array[String](["Contact", "CanProtect", "CanMirrorMove"])

@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://7i6gjdudggff"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_2pfuy"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_qlbdl"]
+
+[resource]
+script = ExtResource("2_qlbdl")
+name = &"V-create"
+power = 180
+accuracy = 95
+max_power_points = 5
+description = "With a fiery forehead, the user hurls itself at the foe. It lowers the user's Defense, Sp. Def, and Speed."
+type = 1
+flags = Array[String](["Contact", "CanProtect", "CanMirrorMove", "CannotMetronome"])

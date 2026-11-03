@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://cldqttoh0btvn"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_tl0u4"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_6pnob"]
+
+[resource]
+script = ExtResource("2_6pnob")
+name = &"First Impression"
+power = 90
+accuracy = 100
+max_power_points = 10
+description = "Although this move has great power, it only works the first turn the user is in battle."
+type = 11
+priority = 2
+flags = Array[String](["Contact", "CanProtect", "CanMirrorMove"])

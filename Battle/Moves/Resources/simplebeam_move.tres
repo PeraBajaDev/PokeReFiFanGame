@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://biy0q1uwhdcww"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_d8ni0"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_irr86"]
+
+[resource]
+script = ExtResource("2_irr86")
+name = &"Simple Beam"
+accuracy = 100
+max_power_points = 15
+description = "The user's mysterious psychic wave changes the target's Ability to Simple."
+category = 2
+flags = Array[String](["CanProtect", "CanMirrorMove"])

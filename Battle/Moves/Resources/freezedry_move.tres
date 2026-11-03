@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://dbcge0n56qkl8"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_fsdox"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_r851m"]
+
+[resource]
+script = ExtResource("2_r851m")
+name = &"Freeze-Dry"
+power = 70
+accuracy = 100
+max_power_points = 20
+description = "The user rapidly cools the target. This may freeze the target. Is super-effective on Water types."
+type = 5
+category = 1
+effect_chanche = 10
+flags = Array[String](["CanProtect", "CanMirrorMove"])

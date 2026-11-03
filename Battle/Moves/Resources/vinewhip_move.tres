@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://cjckhow562hyy"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_8wspl"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_00353"]
+
+[resource]
+script = ExtResource("2_00353")
+name = &"Vine Whip"
+power = 45
+accuracy = 100
+max_power_points = 25
+description = "The target is struck with slender, whiplike vines to inflict damage."
+type = 4
+flags = Array[String](["Contact", "CanProtect", "CanMirrorMove"])

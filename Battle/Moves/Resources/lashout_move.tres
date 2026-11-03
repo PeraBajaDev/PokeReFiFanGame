@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://bwkex41bx6dxq"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_76cvx"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_xquns"]
+
+[resource]
+script = ExtResource("2_xquns")
+name = &"Lash Out"
+power = 75
+accuracy = 100
+max_power_points = 5
+description = "The user lashes out to vent its frustration. Power is doubled if its stats dropped this turn."
+type = 15
+flags = Array[String](["Contact", "CanProtect", "CanMirrorMove"])

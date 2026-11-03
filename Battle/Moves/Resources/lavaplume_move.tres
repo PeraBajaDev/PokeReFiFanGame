@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://biv5yfpycl3rr"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_2m8p5"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_hvmte"]
+
+[resource]
+script = ExtResource("2_hvmte")
+name = &"Lava Plume"
+power = 80
+accuracy = 100
+max_power_points = 15
+description = "An inferno of scarlet flames torches everything around the user. It may leave targets with a burn."
+type = 1
+category = 1
+effect_chanche = 30
+flags = Array[String](["CanProtect", "CanMirrorMove"])

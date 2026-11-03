@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://dhhqqi0j7xhv5"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_vyddc"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_3g8ht"]
+
+[resource]
+script = ExtResource("2_3g8ht")
+name = &"Dragon Tail"
+power = 60
+accuracy = 90
+max_power_points = 10
+description = "The user knocks away the target and drags out another Pokémon in its party. In the wild, the battle ends."
+type = 14
+priority = -6
+flags = Array[String](["Contact", "CanProtect", "CanMirrorMove"])

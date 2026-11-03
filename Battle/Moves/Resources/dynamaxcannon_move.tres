@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://dr0hnfilak6ve"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_p30re"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_tufyr"]
+
+[resource]
+script = ExtResource("2_tufyr")
+name = &"Dynamax Cannon"
+power = 100
+accuracy = 100
+max_power_points = 5
+description = "The user unleashes a strong beam from its core."
+type = 14
+category = 1
+flags = Array[String](["CanProtect", "CannotMetronome"])

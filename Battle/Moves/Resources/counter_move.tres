@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://d3wl35gtfa6xr"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_p70to"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_38aku"]
+
+[resource]
+script = ExtResource("2_38aku")
+name = &"Counter"
+power = 1
+accuracy = 100
+max_power_points = 20
+description = "A retaliation move that counters any physical attack, inflicting double the damage taken."
+type = 6
+priority = -5
+flags = Array[String](["Contact", "CanProtect"])

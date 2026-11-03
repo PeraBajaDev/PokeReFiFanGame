@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://mtfk4068bjif"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_2armn"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_x04nv"]
+
+[resource]
+script = ExtResource("2_x04nv")
+name = &"Fire Spin"
+power = 35
+accuracy = 85
+max_power_points = 15
+description = "The target becomes trapped within a fierce vortex of fire that rages for four to five turns."
+type = 1
+category = 1
+flags = Array[String](["CanProtect", "CanMirrorMove"])

@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://b7ydsn8byu4hj"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_csyo5"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_jc8rt"]
+
+[resource]
+script = ExtResource("2_jc8rt")
+name = &"Taunt"
+accuracy = 100
+max_power_points = 20
+description = "The target is taunted into a rage that allows it to use only attack moves for three turns."
+type = 15
+category = 2
+flags = Array[String](["CanProtect", "CanMirrorMove"])

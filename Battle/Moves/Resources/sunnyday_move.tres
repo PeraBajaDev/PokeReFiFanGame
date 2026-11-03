@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://cs0brgbw0yo75"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_tsykg"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_lpkb0"]
+
+[resource]
+script = ExtResource("2_lpkb0")
+name = &"Sunny Day"
+max_power_points = 5
+description = "The user intensifies the sun for five turns, powering up Fire-type moves."
+type = 1
+category = 2

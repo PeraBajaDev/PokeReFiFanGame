@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://bgahndbky8ixb"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_48gli"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_h8buf"]
+
+[resource]
+script = ExtResource("2_h8buf")
+name = &"Floral Healing"
+max_power_points = 10
+description = "The user restores the target's HP by up to half of its max HP. It restores more HP when the terrain is grass."
+type = 17
+category = 2
+flags = Array[String](["CanProtect"])

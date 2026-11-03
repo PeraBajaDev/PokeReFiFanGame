@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://bqmofdnokqvoj"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_b6aus"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_ratd2"]
+
+[resource]
+script = ExtResource("2_ratd2")
+name = &"Disarming Voice"
+power = 40
+max_power_points = 15
+description = "Letting out a charming cry, the user does emotional damage to foes. This attack never misses."
+type = 17
+category = 1
+flags = Array[String](["CanProtect", "CanMirrorMove", "Sound"])

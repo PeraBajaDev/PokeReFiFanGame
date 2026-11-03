@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://oa8ufv8i6d15"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_ghuvx"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_4txls"]
+
+[resource]
+script = ExtResource("2_4txls")
+name = &"Fairy Lock"
+max_power_points = 10
+description = "By locking down the battlefield, the user keeps all Pokémon from fleeing during the next turn."
+type = 17
+category = 2
+flags = Array[String](["CanMirrorMove"])

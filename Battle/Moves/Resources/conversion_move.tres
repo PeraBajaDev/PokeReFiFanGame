@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://b46f2jhbmrwt5"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_bhavt"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_2ekga"]
+
+[resource]
+script = ExtResource("2_2ekga")
+name = &"Conversion"
+max_power_points = 30
+description = "The user changes its type to become the same type as one of its moves."
+category = 2

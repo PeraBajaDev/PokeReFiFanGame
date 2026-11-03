@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://d11imc2c4hgbn"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_bsfle"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_d25el"]
+
+[resource]
+script = ExtResource("2_d25el")
+name = &"Growl"
+accuracy = 100
+max_power_points = 40
+description = "The user growls in an endearing way, making the foe less wary. The foe's Attack stat is lowered."
+category = 2
+flags = Array[String](["CanProtect", "CanMirrorMove", "Sound"])

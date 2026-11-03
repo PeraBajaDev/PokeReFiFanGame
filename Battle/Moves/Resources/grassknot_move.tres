@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://b1jvr36tljf3d"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_63uw7"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_r2tar"]
+
+[resource]
+script = ExtResource("2_r2tar")
+name = &"Grass Knot"
+power = 1
+accuracy = 100
+max_power_points = 20
+description = "The user snares the target with grass and trips it. The heavier the target, the greater the damage."
+type = 4
+category = 1
+flags = Array[String](["Contact", "CanProtect", "CanMirrorMove"])

@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://devdvr5t5dtsx"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_1b71k"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_4lwlo"]
+
+[resource]
+script = ExtResource("2_4lwlo")
+name = &"U-turn"
+power = 70
+accuracy = 100
+max_power_points = 20
+description = "After making its attack, the user rushes back to switch places with a party Pokémon in waiting."
+type = 11
+flags = Array[String](["Contact", "CanProtect", "CanMirrorMove"])

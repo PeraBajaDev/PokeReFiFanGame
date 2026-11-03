@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://bkica6d7xb17t"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_t4wj6"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_lgxqv"]
+
+[resource]
+script = ExtResource("2_lgxqv")
+name = &"Sleep Powder"
+accuracy = 75
+max_power_points = 15
+description = "The user scatters a big cloud of sleep-inducing dust around the target."
+type = 4
+category = 2
+flags = Array[String](["CanProtect", "CanMirrorMove", "Powder"])

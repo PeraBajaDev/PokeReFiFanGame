@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://h0ou2e7t8ed1"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_71pwd"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_h1agj"]
+
+[resource]
+script = ExtResource("2_h1agj")
+name = &"Thunder Fang"
+power = 65
+accuracy = 95
+max_power_points = 15
+description = "The user bites with electrified fangs. It may also make the target flinch or leave it with paralysis."
+type = 3
+effect_chanche = 101
+flags = Array[String](["Contact", "CanProtect", "CanMirrorMove", "Biting"])

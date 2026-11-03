@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://cljc7f2pfe1l7"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_6g1eg"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_mk4gt"]
+
+[resource]
+script = ExtResource("2_mk4gt")
+name = &"Fire Pledge"
+power = 80
+accuracy = 100
+max_power_points = 10
+description = "A column of fire hits opposing Pokémon. When used with its Grass equivalent, it makes a sea of fire."
+type = 1
+category = 1
+flags = Array[String](["CanProtect", "CanMirrorMove"])

@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://cxobkbi4ipuyd"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_82xgq"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_l2xsn"]
+
+[resource]
+script = ExtResource("2_l2xsn")
+name = &"Steel Wing"
+power = 70
+accuracy = 90
+max_power_points = 25
+description = "The target is hit with wings of steel. It may also raise the user's Defense stat."
+type = 16
+effect_chanche = 10
+flags = Array[String](["Contact", "CanProtect", "CanMirrorMove"])

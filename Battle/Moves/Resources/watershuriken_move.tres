@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://xys8bmq30vxg"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_mdkwc"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_g0gpb"]
+
+[resource]
+script = ExtResource("2_g0gpb")
+name = &"Water Shuriken"
+power = 15
+accuracy = 100
+max_power_points = 20
+description = "The user hits the target with throwing stars 2-5 times in a row. This move always goes first."
+type = 2
+category = 1
+priority = 1
+flags = Array[String](["CanProtect", "CanMirrorMove"])

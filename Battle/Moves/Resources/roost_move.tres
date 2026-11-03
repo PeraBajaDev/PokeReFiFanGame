@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://dqjp6r3laqkkc"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_whaad"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_d7svb"]
+
+[resource]
+script = ExtResource("2_d7svb")
+name = &"Roost"
+max_power_points = 10
+description = "The user lands and rests its body. It restores the user's HP by up to half of its max HP."
+type = 9
+category = 2

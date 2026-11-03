@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://r12pfbsrioks"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_e4u1i"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_3rtwp"]
+
+[resource]
+script = ExtResource("2_3rtwp")
+name = &"Sky Uppercut"
+power = 85
+accuracy = 90
+max_power_points = 15
+description = "The user attacks the target with an uppercut thrown skyward with force."
+type = 6
+flags = Array[String](["Contact", "CanProtect", "CanMirrorMove", "Punching"])

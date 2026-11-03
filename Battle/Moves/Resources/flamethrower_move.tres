@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://dfylo3i605hh1"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_k7qkq"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_xw7j1"]
+
+[resource]
+script = ExtResource("2_xw7j1")
+name = &"Flamethrower"
+power = 90
+accuracy = 100
+max_power_points = 15
+description = "The target is scorched with an intense blast of fire. It may also leave the target with a burn."
+type = 1
+category = 1
+effect_chanche = 10
+flags = Array[String](["CanProtect", "CanMirrorMove"])

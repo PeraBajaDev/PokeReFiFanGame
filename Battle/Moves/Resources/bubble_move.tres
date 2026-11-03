@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://n7yr8e657705"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_dc0ns"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_84va8"]
+
+[resource]
+script = ExtResource("2_84va8")
+name = &"Bubble"
+power = 40
+accuracy = 100
+max_power_points = 30
+description = "A spray of countless bubbles is jetted at the opposing team. It may also lower the targets' Speed stats."
+type = 2
+category = 1
+effect_chanche = 10
+flags = Array[String](["CanProtect", "CanMirrorMove"])

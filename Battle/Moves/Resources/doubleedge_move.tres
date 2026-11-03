@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://jwhj7i3y6rjl"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_ypoff"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_q6aef"]
+
+[resource]
+script = ExtResource("2_q6aef")
+name = &"Double-Edge"
+power = 120
+accuracy = 100
+max_power_points = 15
+description = "A reckless, life-risking tackle. It also damages the user by a fairly large amount, however."
+flags = Array[String](["Contact", "CanProtect", "CanMirrorMove"])

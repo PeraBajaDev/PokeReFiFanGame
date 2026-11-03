@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://ci1n5ggpq31jk"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_q6fy4"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_wfvrk"]
+
+[resource]
+script = ExtResource("2_wfvrk")
+name = &"Foul Play"
+power = 95
+accuracy = 100
+max_power_points = 15
+description = "The user turns the foe's power against it. It does more damage the higher the target's Attack stat."
+type = 15
+flags = Array[String](["Contact", "CanProtect", "CanMirrorMove"])

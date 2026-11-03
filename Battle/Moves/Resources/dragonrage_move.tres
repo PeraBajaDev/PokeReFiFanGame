@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://ddrpeqj3t6u4d"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_tt4xs"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_t8fjg"]
+
+[resource]
+script = ExtResource("2_t8fjg")
+name = &"Dragon Rage"
+power = 1
+accuracy = 100
+max_power_points = 10
+description = "This attack hits the target with a shock wave of pure rage. This attack always inflicts 40 HP damage."
+type = 14
+category = 1
+flags = Array[String](["CanProtect", "CanMirrorMove"])

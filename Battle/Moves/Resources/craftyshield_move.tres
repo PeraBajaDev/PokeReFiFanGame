@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://bdomcgfiyguou"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_xhmap"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_do6lw"]
+
+[resource]
+script = ExtResource("2_do6lw")
+name = &"Crafty Shield"
+max_power_points = 10
+description = "The user protects itself and its allies from status moves with a mysterious power."
+type = 17
+category = 2
+priority = 3

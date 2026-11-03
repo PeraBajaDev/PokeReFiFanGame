@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://diycq4tjumb62"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_pmjvu"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_2oe0x"]
+
+[resource]
+script = ExtResource("2_2oe0x")
+name = &"Kinesis"
+accuracy = 80
+max_power_points = 15
+description = "The user distracts the target by bending a spoon. It lowers the target's accuracy."
+type = 10
+category = 2
+flags = Array[String](["CanProtect", "CanMirrorMove"])

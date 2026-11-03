@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://diet44ajqcd81"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_xrhy1"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_gnn21"]
+
+[resource]
+script = ExtResource("2_gnn21")
+name = &"Tail Slap"
+power = 25
+accuracy = 85
+max_power_points = 10
+description = "The user attacks by striking the target with its hard tail. It hits the Pokémon two to five times in a row."
+flags = Array[String](["Contact", "CanProtect", "CanMirrorMove"])

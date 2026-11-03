@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://6r5fumsfr7xf"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_lhp6w"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_hj1ts"]
+
+[resource]
+script = ExtResource("2_hj1ts")
+name = &"Multi-Attack"
+power = 120
+accuracy = 100
+max_power_points = 10
+description = "Cloaking itself in high energy, the user slams into the target. This move's type depends on the held memory."
+flags = Array[String](["Contact", "CanProtect", "CanMirrorMove"])

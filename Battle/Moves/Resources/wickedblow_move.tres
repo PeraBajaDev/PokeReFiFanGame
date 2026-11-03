@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://botxrquwi542m"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_djxlk"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_rgfg1"]
+
+[resource]
+script = ExtResource("2_rgfg1")
+name = &"Wicked Blow"
+power = 80
+accuracy = 100
+max_power_points = 5
+description = "Strikes with a fierce blow through mastery of the Dark style. Always results in a critical hit."
+type = 15
+flags = Array[String](["Contact", "CanProtect", "CanMirrorMove", "Punching", "CannotMetronome"])

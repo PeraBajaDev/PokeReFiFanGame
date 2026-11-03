@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://b3yfmpc8wyjhd"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_h1wna"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_s50v5"]
+
+[resource]
+script = ExtResource("2_s50v5")
+name = &"Geomancy"
+max_power_points = 10
+description = "The user absorbs energy and sharply raises its Sp. Atk, Sp. Def, and Speed stats on the next turn."
+type = 17
+category = 2

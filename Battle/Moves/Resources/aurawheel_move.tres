@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://bjn4l0h2vioh"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_74u31"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_a3g34"]
+
+[resource]
+script = ExtResource("2_a3g34")
+name = &"Aura Wheel"
+power = 110
+accuracy = 100
+max_power_points = 10
+description = "Morpeko attacks and raises its Speed with energy stored in its cheeks. Type changes with the user's form."
+type = 3
+effect_chanche = 100
+flags = Array[String](["CanProtect", "CanMirrorMove", "CannotMetronome"])

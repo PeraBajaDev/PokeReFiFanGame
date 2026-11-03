@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://crnp6vmt50ev2"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_gri76"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_286i4"]
+
+[resource]
+script = ExtResource("2_286i4")
+name = &"Fling"
+power = 1
+accuracy = 100
+max_power_points = 10
+description = "The user flings its held item at the target to attack. Its power and effects depend on the item."
+type = 15
+flags = Array[String](["CanProtect", "CanMirrorMove"])

@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://c8nywsi5ynev4"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_qbxjt"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_lkpc5"]
+
+[resource]
+script = ExtResource("2_lkpc5")
+name = &"Ion Deluge"
+max_power_points = 25
+description = "The user disperses electrically charged particles. Normal-type moves become Electric-type."
+type = 3
+category = 2
+priority = 1

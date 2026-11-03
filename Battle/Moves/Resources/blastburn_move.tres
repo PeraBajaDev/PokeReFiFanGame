@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://xlywmbbl45a1"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_k85sh"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_xcgu4"]
+
+[resource]
+script = ExtResource("2_xcgu4")
+name = &"Blast Burn"
+power = 150
+accuracy = 90
+max_power_points = 5
+description = "The target is razed by a fiery explosion. The user must rest on the next turn, however."
+type = 1
+category = 1
+flags = Array[String](["CanProtect", "CanMirrorMove"])

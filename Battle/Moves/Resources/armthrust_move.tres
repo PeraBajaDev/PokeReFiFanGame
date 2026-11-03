@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://dv2qq3jr0tetc"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_3hlcy"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_g1y2y"]
+
+[resource]
+script = ExtResource("2_g1y2y")
+name = &"Arm Thrust"
+power = 15
+accuracy = 100
+max_power_points = 20
+description = "The user looses a flurry of open-palmed arm thrusts that hit two to five times in a row."
+type = 6
+flags = Array[String](["Contact", "CanProtect", "CanMirrorMove"])

@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://qcswov4rnlbd"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_bbfan"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_uxhb3"]
+
+[resource]
+script = ExtResource("2_uxhb3")
+name = &"Mega Kick"
+power = 120
+accuracy = 75
+max_power_points = 5
+description = "The target is attacked by a kick launched with muscle-packed power."
+flags = Array[String](["Contact", "CanProtect", "CanMirrorMove"])

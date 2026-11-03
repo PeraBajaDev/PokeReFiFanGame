@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://cekyri4b8p8oj"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_nuh3x"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_iyqip"]
+
+[resource]
+script = ExtResource("2_iyqip")
+name = &"Giga Impact"
+power = 150
+accuracy = 90
+max_power_points = 5
+description = "The user charges at the target using every bit of its power. The user must rest on the next turn."
+flags = Array[String](["Contact", "CanProtect", "CanMirrorMove"])

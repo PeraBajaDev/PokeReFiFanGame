@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://bgxstqmqkj2ax"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_8jlbm"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_o7l8q"]
+
+[resource]
+script = ExtResource("2_o7l8q")
+name = &"Roar of Time"
+power = 150
+accuracy = 90
+max_power_points = 5
+description = "The user blasts the target with power that distorts even time. The user must rest on the next turn."
+type = 14
+category = 1
+flags = Array[String](["CanProtect", "CanMirrorMove"])

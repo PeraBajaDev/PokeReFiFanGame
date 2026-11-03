@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://cg14y58hd3obt"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_og2sj"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_a3v6o"]
+
+[resource]
+script = ExtResource("2_a3v6o")
+name = &"Sparkling Aria"
+power = 90
+accuracy = 100
+max_power_points = 10
+description = "The user bursts into song, emitting many bubbles. Any burnt Pokémon will be healed by these bubbles."
+type = 2
+category = 1
+effect_chanche = 100
+flags = Array[String](["CanProtect", "CanMirrorMove", "Sound"])

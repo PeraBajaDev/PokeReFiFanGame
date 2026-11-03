@@ -5,7 +5,10 @@
 
 [resource]
 script = ExtResource("1_eap0t")
-name = "Hypnosis"
-max_power_points = 15
+name = &"Hypnosis"
+accuracy = 60
+max_power_points = 20
+description = "The user employs hypnotic suggestion to make the target fall into a deep sleep."
+type = 10
 category = 2
-metadata/_custom_type_script = "uid://dgxndfyv3l1lg"
+flags = Array[String](["CanProtect", "CanMirrorMove"])

@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://ubsg335irl3w"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_vlsqo"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_pudcg"]
+
+[resource]
+script = ExtResource("2_pudcg")
+name = &"Shadow Force"
+power = 120
+accuracy = 100
+max_power_points = 5
+description = "The user disappears, then strikes the foe on the second turn. It hits even if the foe protects itself."
+type = 13
+flags = Array[String](["Contact", "CanMirrorMove"])

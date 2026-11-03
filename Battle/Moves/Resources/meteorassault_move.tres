@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://bv4dmq7tt24r0"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_wrp65"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_ahu02"]
+
+[resource]
+script = ExtResource("2_ahu02")
+name = &"Meteor Assault"
+power = 150
+accuracy = 100
+max_power_points = 5
+description = "The user attacks wildly with its thick leek. The user can't move on the next turn."
+type = 6
+flags = Array[String](["CanProtect", "CanMirrorMove", "CannotMetronome"])

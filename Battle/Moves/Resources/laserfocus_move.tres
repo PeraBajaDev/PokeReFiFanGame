@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://whg2mxakc7dc"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_chn7k"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_erevj"]
+
+[resource]
+script = ExtResource("2_erevj")
+name = &"Laser Focus"
+max_power_points = 30
+description = "The user focuses intensely. The attack on the next turn always results in a critical hit."
+category = 2

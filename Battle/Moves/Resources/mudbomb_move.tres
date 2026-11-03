@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://bjf0c1r52aq67"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_dp3mx"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_ilje6"]
+
+[resource]
+script = ExtResource("2_ilje6")
+name = &"Mud Bomb"
+power = 65
+accuracy = 85
+max_power_points = 10
+description = "The user launches a hard-packed mud ball to attack. It may also lower the target's accuracy."
+type = 8
+category = 1
+effect_chanche = 30
+flags = Array[String](["CanProtect", "CanMirrorMove", "Bomb"])

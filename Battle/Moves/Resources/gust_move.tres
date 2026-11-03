@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://c010pb6j3ratv"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_m4sd6"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_mgjk3"]
+
+[resource]
+script = ExtResource("2_mgjk3")
+name = &"Gust"
+power = 40
+accuracy = 100
+max_power_points = 35
+description = "A gust of wind is whipped up by wings and launched at the target to inflict damage."
+type = 9
+category = 1
+flags = Array[String](["CanProtect", "CanMirrorMove"])

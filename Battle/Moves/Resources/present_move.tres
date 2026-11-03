@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://b0qpcq0pq0qmp"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_ppbx6"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_olgjj"]
+
+[resource]
+script = ExtResource("2_olgjj")
+name = &"Present"
+power = 1
+accuracy = 90
+max_power_points = 15
+description = "The user attacks by giving the target a gift with a hidden trap. It restores HP sometimes, however."
+flags = Array[String](["CanProtect", "CanMirrorMove"])

@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://twrrfkcktf4n"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_67jif"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_iylyh"]
+
+[resource]
+script = ExtResource("2_iylyh")
+name = &"Will-O-Wisp"
+accuracy = 85
+max_power_points = 15
+description = "The user shoots a sinister, bluish-white flame at the target to inflict a burn."
+type = 1
+category = 2
+flags = Array[String](["CanProtect", "CanMirrorMove"])

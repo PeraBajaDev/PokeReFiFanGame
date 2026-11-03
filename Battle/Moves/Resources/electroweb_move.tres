@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://bptt4d6obch1d"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_ep4ra"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_5e1pt"]
+
+[resource]
+script = ExtResource("2_5e1pt")
+name = &"Electroweb"
+power = 55
+accuracy = 95
+max_power_points = 15
+description = "The user captures and attacks foes by using an electric net, which lowers their Speed stat."
+type = 3
+category = 1
+effect_chanche = 100
+flags = Array[String](["CanProtect", "CanMirrorMove"])

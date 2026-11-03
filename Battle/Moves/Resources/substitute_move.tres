@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://bal2lhalnpsw5"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_gyi4p"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_budnc"]
+
+[resource]
+script = ExtResource("2_budnc")
+name = &"Substitute"
+max_power_points = 10
+description = "The user makes a copy of itself using some of its HP. The copy serves as the user's decoy."
+category = 2

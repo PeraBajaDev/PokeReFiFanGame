@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://d2i7ebqbdpmk4"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_as1bv"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_v6rdh"]
+
+[resource]
+script = ExtResource("2_v6rdh")
+name = &"Bullet Seed"
+power = 25
+accuracy = 100
+max_power_points = 30
+description = "The user forcefully shoots seeds at the target. Two to five seeds are shot in rapid succession."
+type = 4
+flags = Array[String](["CanProtect", "CanMirrorMove", "Bomb"])

@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://bapnjabxgs1is"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_rx2ai"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_g6iwp"]
+
+[resource]
+script = ExtResource("2_g6iwp")
+name = &"Anchor Shot"
+power = 80
+accuracy = 100
+max_power_points = 20
+description = "The user entangles the target with its anchor chain. The target becomes unable to flee."
+type = 16
+effect_chanche = 100
+flags = Array[String](["Contact", "CanProtect", "CanMirrorMove"])

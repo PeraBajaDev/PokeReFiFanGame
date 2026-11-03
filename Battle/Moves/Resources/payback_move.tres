@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://qflkyhmkc6pw"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_sm8p6"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_lgipo"]
+
+[resource]
+script = ExtResource("2_lgipo")
+name = &"Payback"
+power = 50
+accuracy = 100
+max_power_points = 10
+description = "If the user moves after the target, this attack's power will be doubled."
+type = 15
+flags = Array[String](["Contact", "CanProtect", "CanMirrorMove"])

@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://bessdpnjjk7t1"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_c8nsr"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_hnkha"]
+
+[resource]
+script = ExtResource("2_hnkha")
+name = &"Extrasensory"
+power = 80
+accuracy = 100
+max_power_points = 20
+description = "The user attacks with an odd, unseeable power. It may also make the target flinch."
+type = 10
+category = 1
+effect_chanche = 10
+flags = Array[String](["CanProtect", "CanMirrorMove"])

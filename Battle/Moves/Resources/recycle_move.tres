@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://dvjgy23igjgg"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_vaptp"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_2tyf7"]
+
+[resource]
+script = ExtResource("2_2tyf7")
+name = &"Recycle"
+max_power_points = 10
+description = "The user recycles a held item that has been used in battle so it can be used again."
+category = 2

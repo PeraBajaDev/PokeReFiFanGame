@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://bffhbi0j18n6v"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_qdk1f"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_28rxo"]
+
+[resource]
+script = ExtResource("2_28rxo")
+name = &"Storm Throw"
+power = 60
+accuracy = 100
+max_power_points = 10
+description = "The user strikes the target with a fierce blow. This attack always results in a critical hit."
+type = 6
+flags = Array[String](["Contact", "CanProtect", "CanMirrorMove"])

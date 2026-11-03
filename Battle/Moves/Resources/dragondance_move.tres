@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://by2qpctik0i50"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_07lv0"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_86166"]
+
+[resource]
+script = ExtResource("2_86166")
+name = &"Dragon Dance"
+max_power_points = 20
+description = "The user vigorously performs a mystic, powerful dance that boosts its Attack and Speed stats."
+type = 14
+category = 2
+flags = Array[String](["Dance"])

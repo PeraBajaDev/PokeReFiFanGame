@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://de2nf370sxnwm"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_7q5oo"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_cnoc8"]
+
+[resource]
+script = ExtResource("2_cnoc8")
+name = &"Vital Throw"
+power = 70
+max_power_points = 10
+description = "The user attacks last. In return, this throw move is guaranteed not to miss."
+type = 6
+priority = -1
+flags = Array[String](["Contact", "CanProtect", "CanMirrorMove"])

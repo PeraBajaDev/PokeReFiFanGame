@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://cav8gw0o2xpfo"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_sinm5"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_38uo3"]
+
+[resource]
+script = ExtResource("2_38uo3")
+name = &"Water Sport"
+max_power_points = 15
+description = "The user soaks itself with water. The move weakens Fire-type moves while the user is in the battle."
+type = 2
+category = 2

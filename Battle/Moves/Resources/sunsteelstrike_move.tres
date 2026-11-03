@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://1da10rpsa68l"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_84teq"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_g4wkl"]
+
+[resource]
+script = ExtResource("2_g4wkl")
+name = &"Sunsteel Strike"
+power = 100
+accuracy = 100
+max_power_points = 5
+description = "The user slams into the target with the force of a meteor. Can't be stopped by the target's Ability."
+type = 16
+flags = Array[String](["Contact", "CanProtect", "CanMirrorMove", "CannotMetronome"])

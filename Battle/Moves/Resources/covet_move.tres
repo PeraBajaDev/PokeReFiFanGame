@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://dygnj7rrvupx1"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_85l1o"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_e14iu"]
+
+[resource]
+script = ExtResource("2_e14iu")
+name = &"Covet"
+power = 60
+accuracy = 100
+max_power_points = 25
+description = "The user endearingly approaches the target, then steals the target's held item."
+flags = Array[String](["Contact", "CanProtect", "CanMirrorMove"])

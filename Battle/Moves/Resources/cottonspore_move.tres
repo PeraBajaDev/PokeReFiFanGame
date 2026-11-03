@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://bpbv6tiqn6n40"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_e1s02"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_1e46k"]
+
+[resource]
+script = ExtResource("2_1e46k")
+name = &"Cotton Spore"
+accuracy = 100
+max_power_points = 40
+description = "The user releases cotton-like spores that cling to the foe, harshly reducing its Speed stat."
+type = 4
+category = 2
+flags = Array[String](["CanProtect", "CanMirrorMove", "Powder"])

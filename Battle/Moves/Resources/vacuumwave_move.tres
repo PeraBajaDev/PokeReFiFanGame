@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://cvad8xi1xmdt0"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_pydxk"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_qnjjj"]
+
+[resource]
+script = ExtResource("2_qnjjj")
+name = &"Vacuum Wave"
+power = 40
+accuracy = 100
+max_power_points = 30
+description = "The user whirls its fists to send a wave of pure vacuum at the target. This move always goes first."
+type = 6
+category = 1
+priority = 1
+flags = Array[String](["CanProtect", "CanMirrorMove"])

@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://cs6g8l3jlmdpu"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_ql4nl"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_y1p8w"]
+
+[resource]
+script = ExtResource("2_y1p8w")
+name = &"Shadow Claw"
+power = 70
+accuracy = 100
+max_power_points = 15
+description = "The user slashes with a sharp claw made from shadows. Critical hits land more easily."
+type = 13
+flags = Array[String](["Contact", "CanProtect", "CanMirrorMove", "HighCriticalHitRate"])

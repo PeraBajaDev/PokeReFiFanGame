@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://3cso2lcgvgtl"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_qshy8"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_3m8yo"]
+
+[resource]
+script = ExtResource("2_3m8yo")
+name = &"Rock Smash"
+power = 40
+accuracy = 100
+max_power_points = 15
+description = "The user attacks with a punch that can shatter a rock. It may also lower the foe's Defense stat."
+type = 6
+effect_chanche = 50
+flags = Array[String](["Contact", "CanProtect", "CanMirrorMove"])

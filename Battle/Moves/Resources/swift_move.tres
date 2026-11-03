@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://cu7rxh78dfoah"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_4b1is"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_4n46j"]
+
+[resource]
+script = ExtResource("2_4n46j")
+name = &"Swift"
+power = 60
+max_power_points = 20
+description = "Star-shaped rays are shot at the opposing team. This attack never misses."
+category = 1
+flags = Array[String](["CanProtect", "CanMirrorMove"])

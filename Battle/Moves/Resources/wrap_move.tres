@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://h88trqrhvhc8"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_gr7b7"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_wvnr5"]
+
+[resource]
+script = ExtResource("2_wvnr5")
+name = &"Wrap"
+power = 15
+accuracy = 90
+max_power_points = 20
+description = "A long body or vines are used to wrap and squeeze the target for four to five turns."
+flags = Array[String](["Contact", "CanProtect", "CanMirrorMove"])

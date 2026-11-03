@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://dn3ef48rp2kcu"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_27u5k"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_gosfg"]
+
+[resource]
+script = ExtResource("2_gosfg")
+name = &"Coaching"
+max_power_points = 10
+description = "The user properly coaches its ally Pokémon, boosting their Attack and Defense stats."
+type = 6
+category = 2
+flags = Array[String](["CanMirrorMove"])

@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://dwiihhig45v3u"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_r4lx6"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_uemhr"]
+
+[resource]
+script = ExtResource("2_uemhr")
+name = &"Photon Geyser"
+power = 100
+accuracy = 100
+max_power_points = 5
+description = "The user attacks with a pillar of light. This move the higher of the user's Attack or Sp. Atk stat."
+type = 10
+category = 1
+flags = Array[String](["CanProtect", "CanMirrorMove", "CannotMetronome"])

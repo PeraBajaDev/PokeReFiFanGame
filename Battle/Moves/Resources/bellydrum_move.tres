@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://6w0qj86yiixf"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_pkwhq"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_w5t0b"]
+
+[resource]
+script = ExtResource("2_w5t0b")
+name = &"Belly Drum"
+max_power_points = 10
+description = "The user maximizes its Attack stat in exchange for HP equal to half its max HP."
+category = 2

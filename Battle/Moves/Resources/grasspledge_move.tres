@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://b0m1asd365o1l"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_i3oo3"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_3t0qb"]
+
+[resource]
+script = ExtResource("2_3t0qb")
+name = &"Grass Pledge"
+power = 80
+accuracy = 100
+max_power_points = 10
+description = "A column of grass hits the foes. When used with its water equivalent, it creates a vast swamp."
+type = 4
+category = 1
+flags = Array[String](["CanProtect", "CanMirrorMove"])

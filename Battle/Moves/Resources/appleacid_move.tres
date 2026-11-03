@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://x52bov3eay3e"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_a86gr"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_guhyw"]
+
+[resource]
+script = ExtResource("2_guhyw")
+name = &"Apple Acid"
+power = 80
+accuracy = 100
+max_power_points = 10
+description = "Attacks with an acidic liquid created from tart apples. This also lowers the target's Sp. Def."
+type = 4
+category = 1
+effect_chanche = 100
+flags = Array[String](["CanProtect", "CanMirrorMove", "CannotMetronome"])

@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://dxv3h63bgors7"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_5xfmh"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_nx75c"]
+
+[resource]
+script = ExtResource("2_nx75c")
+name = &"Quash"
+accuracy = 100
+max_power_points = 15
+description = "The user suppresses the target and makes its move go last."
+type = 15
+category = 2
+flags = Array[String](["CanProtect", "CanMirrorMove"])

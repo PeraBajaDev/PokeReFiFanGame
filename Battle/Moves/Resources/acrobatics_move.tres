@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://3h424j0q8kej"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_mucw1"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_2ud55"]
+
+[resource]
+script = ExtResource("2_2ud55")
+name = &"Acrobatics"
+power = 55
+accuracy = 100
+max_power_points = 15
+description = "The user nimbly strikes the foe. This attack does more damage if the user is not holding an item."
+type = 9
+flags = Array[String](["Contact", "CanProtect", "CanMirrorMove"])

@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://b5l7adkvu45jo"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_hbrhx"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_0kqmm"]
+
+[resource]
+script = ExtResource("2_0kqmm")
+name = &"Icicle Crash"
+power = 85
+accuracy = 90
+max_power_points = 10
+description = "The user attacks by harshly dropping an icicle onto the foe. It may also make the target flinch."
+type = 5
+effect_chanche = 30
+flags = Array[String](["CanProtect", "CanMirrorMove"])

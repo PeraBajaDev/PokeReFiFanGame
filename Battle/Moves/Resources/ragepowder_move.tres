@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://oknh071dt8lu"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_6vr2g"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_4s64m"]
+
+[resource]
+script = ExtResource("2_4s64m")
+name = &"Rage Powder"
+max_power_points = 20
+description = "The user scatters irritating powder to draw attention to itself. Opponents aim only at the user."
+type = 11
+category = 2
+priority = 2
+flags = Array[String](["Powder"])

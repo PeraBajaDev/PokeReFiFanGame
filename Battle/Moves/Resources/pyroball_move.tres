@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://cry2dq0oogpp2"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_t6t21"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_putuu"]
+
+[resource]
+script = ExtResource("2_putuu")
+name = &"Pyro Ball"
+power = 120
+accuracy = 90
+max_power_points = 5
+description = "Attacks by igniting a small stone and launching it as a fiery ball. May also burn the target."
+type = 1
+effect_chanche = 10
+flags = Array[String](["CanProtect", "CanMirrorMove", "ThawsUser", "Bomb", "CannotMetronome"])

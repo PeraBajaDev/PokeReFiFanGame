@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://buxs4y4ked1px"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_yxwsv"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_obluv"]
+
+[resource]
+script = ExtResource("2_obluv")
+name = &"Explosion"
+power = 250
+accuracy = 100
+max_power_points = 5
+description = "The user explodes to inflict damage on those around it. The user faints upon using this move."
+flags = Array[String](["CanProtect", "CanMirrorMove"])

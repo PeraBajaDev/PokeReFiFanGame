@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://2vytww75j8c2"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_2aefs"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_65mei"]
+
+[resource]
+script = ExtResource("2_65mei")
+name = &"Snarl"
+power = 55
+accuracy = 95
+max_power_points = 15
+description = "The user yells as if it is ranting about something, making the target's Sp. Atk stat decrease."
+type = 15
+category = 1
+effect_chanche = 100
+flags = Array[String](["CanProtect", "CanMirrorMove", "Sound", "CannotMetronome"])

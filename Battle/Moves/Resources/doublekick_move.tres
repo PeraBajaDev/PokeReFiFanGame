@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://dp4hpssa0xu1k"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_k3pv8"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_rfl46"]
+
+[resource]
+script = ExtResource("2_rfl46")
+name = &"Double Kick"
+power = 30
+accuracy = 100
+max_power_points = 30
+description = "The target is quickly kicked twice in succession using both feet."
+type = 6
+flags = Array[String](["Contact", "CanProtect", "CanMirrorMove"])

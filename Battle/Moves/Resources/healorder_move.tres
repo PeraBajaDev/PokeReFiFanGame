@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://v5w8juy5lvsh"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_pwvog"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_3qukb"]
+
+[resource]
+script = ExtResource("2_3qukb")
+name = &"Heal Order"
+max_power_points = 10
+description = "The user calls out its underlings to heal it. The user regains up to half of its max HP."
+type = 11
+category = 2

@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://b88px85wnlyw3"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_8ix3r"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_1fnrf"]
+
+[resource]
+script = ExtResource("2_1fnrf")
+name = &"Spacial Rend"
+power = 100
+accuracy = 95
+max_power_points = 5
+description = "The user tears the target along with the space around it. Critical hits land more easily."
+type = 14
+category = 1
+flags = Array[String](["CanProtect", "CanMirrorMove", "HighCriticalHitRate"])

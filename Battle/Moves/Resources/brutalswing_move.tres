@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://ctps55hqmq7oi"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_rr1pv"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_ybofq"]
+
+[resource]
+script = ExtResource("2_ybofq")
+name = &"Brutal Swing"
+power = 60
+accuracy = 100
+max_power_points = 20
+description = "The user swings its body around violently to inflict damage on everything in its vicinity."
+type = 15
+flags = Array[String](["Contact", "CanProtect", "CanMirrorMove"])

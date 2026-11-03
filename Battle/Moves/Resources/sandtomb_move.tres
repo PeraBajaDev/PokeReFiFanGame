@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://uy2d8i0asysb"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_y0vir"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_2lgjw"]
+
+[resource]
+script = ExtResource("2_2lgjw")
+name = &"Sand Tomb"
+power = 35
+accuracy = 85
+max_power_points = 15
+description = "The user traps the target inside a harshly raging sandstorm for four to five turns."
+type = 8
+flags = Array[String](["CanProtect", "CanMirrorMove"])

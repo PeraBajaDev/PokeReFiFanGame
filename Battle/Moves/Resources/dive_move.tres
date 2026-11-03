@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://dm7a76tmo5pur"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_lqmlx"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_ktuye"]
+
+[resource]
+script = ExtResource("2_ktuye")
+name = &"Dive"
+power = 80
+accuracy = 100
+max_power_points = 10
+description = "Diving on the first turn, the user rises and hits on the next turn. It can be used to dive in the ocean."
+type = 2
+flags = Array[String](["Contact", "CanProtect", "CanMirrorMove"])

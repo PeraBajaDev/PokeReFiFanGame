@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://0t61jrt3rsmj"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_e5gbm"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_5fivm"]
+
+[resource]
+script = ExtResource("2_5fivm")
+name = &"Water Spout"
+power = 150
+accuracy = 100
+max_power_points = 5
+description = "The user spouts water to damage the foe. The lower the user's HP, the less powerful it becomes."
+type = 2
+category = 1
+flags = Array[String](["CanProtect", "CanMirrorMove"])

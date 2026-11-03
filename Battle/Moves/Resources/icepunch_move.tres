@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://14lclb5kx6xd"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_sc07w"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_eh4k0"]
+
+[resource]
+script = ExtResource("2_eh4k0")
+name = &"Ice Punch"
+power = 75
+accuracy = 100
+max_power_points = 15
+description = "The target is punched with an icy fist. It may also leave the target frozen."
+type = 5
+effect_chanche = 10
+flags = Array[String](["Contact", "CanProtect", "CanMirrorMove", "Punching"])

@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://bl1g0cau14cuw"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_wtqyv"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_2qlc4"]
+
+[resource]
+script = ExtResource("2_2qlc4")
+name = &"Fly"
+power = 90
+accuracy = 95
+max_power_points = 15
+description = "The user soars, then strikes on the second turn. It can also be used for flying to any familiar town."
+type = 9
+flags = Array[String](["Contact", "CanProtect", "CanMirrorMove"])

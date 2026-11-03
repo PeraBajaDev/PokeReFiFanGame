@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://qiku8vm27vqu"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_kk65q"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_vkt8c"]
+
+[resource]
+script = ExtResource("2_vkt8c")
+name = &"Whirlwind"
+max_power_points = 20
+description = "The foe is blown away, to be replaced by another Pokémon in its party. In the wild, the battle ends."
+category = 2
+priority = -6
+flags = Array[String](["CanMirrorMove"])

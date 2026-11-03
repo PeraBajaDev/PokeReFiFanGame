@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://cd0wxu1lesveb"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_kw4yv"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_6057i"]
+
+[resource]
+script = ExtResource("2_6057i")
+name = &"Overdrive"
+power = 80
+accuracy = 100
+max_power_points = 10
+description = "The user attacks all foes by twanging a guitar or bass guitar, causing a huge echo and strong vibration."
+type = 3
+category = 1
+flags = Array[String](["CanProtect", "CanMirrorMove", "Sound", "CannotMetronome"])

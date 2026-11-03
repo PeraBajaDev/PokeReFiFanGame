@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://chodi11sscfw1"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_syim4"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_700jw"]
+
+[resource]
+script = ExtResource("2_700jw")
+name = &"Focus Energy"
+max_power_points = 30
+description = "The user takes a deep breath and focuses so that critical hits land more easily."
+category = 2

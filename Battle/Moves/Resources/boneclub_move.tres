@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://dxyfe5sjsnbn3"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_6wsdr"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_o4sep"]
+
+[resource]
+script = ExtResource("2_o4sep")
+name = &"Bone Club"
+power = 65
+accuracy = 85
+max_power_points = 20
+description = "The user clubs the target with a bone. It may also make the target flinch."
+type = 8
+effect_chanche = 10
+flags = Array[String](["CanProtect", "CanMirrorMove"])

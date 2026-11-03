@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://5i00jbf15ykc"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_5xx4t"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_rqxjf"]
+
+[resource]
+script = ExtResource("2_rqxjf")
+name = &"Bounce"
+power = 85
+accuracy = 85
+max_power_points = 5
+description = "The user bounces up high, then drops on the foe on the second turn. It may also paralyze the foe."
+type = 9
+effect_chanche = 30
+flags = Array[String](["Contact", "CanProtect", "CanMirrorMove"])

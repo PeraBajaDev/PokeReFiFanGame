@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://csst0eql1ia2"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_3sci2"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_20pk8"]
+
+[resource]
+script = ExtResource("2_20pk8")
+name = &"Bind"
+power = 15
+accuracy = 85
+max_power_points = 20
+description = "Things such as long bodies or tentacles are used to bind and squeeze the foe for four to five turns."
+flags = Array[String](["Contact", "CanProtect", "CanMirrorMove"])

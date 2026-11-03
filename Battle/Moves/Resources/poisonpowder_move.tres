@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://c4u2j7t8pmrmr"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_ngqhu"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_tgdi3"]
+
+[resource]
+script = ExtResource("2_tgdi3")
+name = &"Poison Powder"
+accuracy = 75
+max_power_points = 35
+description = "The user scatters a cloud of poisonous dust on the target. It may poison the target."
+type = 7
+category = 2
+flags = Array[String](["CanProtect", "CanMirrorMove", "Powder"])

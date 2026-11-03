@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://c7wodmihui04h"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_3k1bo"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_2u0jp"]
+
+[resource]
+script = ExtResource("2_2u0jp")
+name = &"Horn Leech"
+power = 75
+accuracy = 100
+max_power_points = 10
+description = "The user drains the foe's energy with its horns. The user's HP is restored by half the damage inflicted."
+type = 4
+flags = Array[String](["Contact", "CanProtect", "CanMirrorMove"])

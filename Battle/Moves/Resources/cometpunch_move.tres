@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://bdy3h03milp3o"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_46laj"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_qt6qv"]
+
+[resource]
+script = ExtResource("2_qt6qv")
+name = &"Comet Punch"
+power = 18
+accuracy = 85
+max_power_points = 15
+description = "The target is hit with a flurry of punches that strike two to five times in a row."
+flags = Array[String](["Contact", "CanProtect", "CanMirrorMove", "Punching"])

@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://c7dxsxvguarpb"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_843kf"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_7bly8"]
+
+[resource]
+script = ExtResource("2_7bly8")
+name = &"Knock Off"
+power = 65
+accuracy = 100
+max_power_points = 20
+description = "The user slaps down the target's held item, preventing that item from being used in the battle."
+type = 15
+flags = Array[String](["Contact", "CanProtect", "CanMirrorMove"])

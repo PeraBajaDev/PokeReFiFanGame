@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://bedttbufheiho"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_yaf0f"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_nspst"]
+
+[resource]
+script = ExtResource("2_nspst")
+name = &"Mach Punch"
+power = 40
+accuracy = 100
+max_power_points = 30
+description = "The user throws a punch at blinding speed. It is certain to strike first."
+type = 6
+priority = 1
+flags = Array[String](["Contact", "CanProtect", "CanMirrorMove", "Punching"])

@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://baqsx28u2v3sd"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_3yam2"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_uaugp"]
+
+[resource]
+script = ExtResource("2_uaugp")
+name = &"Wide Guard"
+max_power_points = 10
+description = "The user and its allies are protected from wide-ranging attacks for a turn. May fail if used in succession."
+type = 12
+category = 2
+priority = 3

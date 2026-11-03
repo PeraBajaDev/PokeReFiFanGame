@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://dpthvhy80vm1m"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_vxae8"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_31rnr"]
+
+[resource]
+script = ExtResource("2_31rnr")
+name = &"Trick Room"
+max_power_points = 5
+description = "The user creates a bizarre area in which slower Pokémon get to move first for five turns."
+type = 10
+category = 2
+priority = -7
+flags = Array[String](["CanMirrorMove"])

@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://dyydx55vgpw2l"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_c2g28"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_sn7ee"]
+
+[resource]
+script = ExtResource("2_sn7ee")
+name = &"False Swipe"
+power = 40
+accuracy = 100
+max_power_points = 40
+description = "A restrained attack that prevents the target from fainting. The target is left with at least 1 HP."
+flags = Array[String](["Contact", "CanProtect", "CanMirrorMove"])

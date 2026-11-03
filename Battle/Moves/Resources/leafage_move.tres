@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://chpmoo2p7p4m7"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_hyr7e"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_6mxsi"]
+
+[resource]
+script = ExtResource("2_6mxsi")
+name = &"Leafage"
+power = 40
+accuracy = 100
+max_power_points = 40
+description = "The user attacks by pelting the target with leaves."
+type = 4
+flags = Array[String](["CanProtect", "CanMirrorMove"])

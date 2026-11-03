@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://crvshub3x6rxi"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_5qvrh"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_vv6gq"]
+
+[resource]
+script = ExtResource("2_vv6gq")
+name = &"Extreme Speed"
+power = 80
+accuracy = 100
+max_power_points = 5
+description = "The user charges the target at blinding speed. This attack always goes before any other move."
+priority = 2
+flags = Array[String](["Contact", "CanProtect", "CanMirrorMove"])

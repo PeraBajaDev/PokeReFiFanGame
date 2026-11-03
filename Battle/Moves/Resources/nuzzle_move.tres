@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://c1gsgc644c3bx"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_1p3jm"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_470bx"]
+
+[resource]
+script = ExtResource("2_470bx")
+name = &"Nuzzle"
+power = 20
+accuracy = 100
+max_power_points = 20
+description = "The user nuzzles its electrified cheeks against the target. This also leaves the target with paralysis."
+type = 3
+effect_chanche = 100
+flags = Array[String](["Contact", "CanProtect", "CanMirrorMove"])

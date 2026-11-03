@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://wuc243p50n0x"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_khmr1"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_wy1rq"]
+
+[resource]
+script = ExtResource("2_wy1rq")
+name = &"Hold Back"
+power = 40
+accuracy = 100
+max_power_points = 40
+description = "The user holds back when it attacks, and the target is left with at least 1 HP."
+flags = Array[String](["Contact", "CanProtect", "CanMirrorMove"])

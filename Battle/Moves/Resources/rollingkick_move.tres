@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://x3priyk48k6g"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_4jvni"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_ef1l1"]
+
+[resource]
+script = ExtResource("2_ef1l1")
+name = &"Rolling Kick"
+power = 60
+accuracy = 85
+max_power_points = 15
+description = "The user lashes out with a quick, spinning kick. It may also make the target flinch."
+type = 6
+effect_chanche = 30
+flags = Array[String](["Contact", "CanProtect", "CanMirrorMove"])

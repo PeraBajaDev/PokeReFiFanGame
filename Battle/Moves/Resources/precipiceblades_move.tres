@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://b2x5q6ps3e6h7"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_1xvve"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_irk4x"]
+
+[resource]
+script = ExtResource("2_irk4x")
+name = &"Precipice Blades"
+power = 120
+accuracy = 85
+max_power_points = 10
+description = "The user attacks its foes by manifesting the power of the land in fearsome blades of stone."
+type = 8
+flags = Array[String](["CanProtect", "CanMirrorMove", "CannotMetronome"])

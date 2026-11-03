@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://csokbb8kc8hup"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_n18tf"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_cyuy0"]
+
+[resource]
+script = ExtResource("2_cyuy0")
+name = &"Crush Claw"
+power = 75
+accuracy = 95
+max_power_points = 10
+description = "The user slashes the target with hard and sharp claws. It may also lower the target's Defense."
+effect_chanche = 50
+flags = Array[String](["Contact", "CanProtect", "CanMirrorMove"])

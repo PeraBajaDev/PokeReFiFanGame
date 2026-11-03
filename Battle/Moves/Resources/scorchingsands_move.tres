@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://hh41xocekpn2"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_ykwf7"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_fp2n3"]
+
+[resource]
+script = ExtResource("2_fp2n3")
+name = &"Scorching Sands"
+power = 70
+accuracy = 100
+max_power_points = 10
+description = "The user throws scorching sand at the target to attack. This may also burn the target."
+type = 8
+category = 1
+effect_chanche = 30
+flags = Array[String](["CanProtect", "CanMirrorMove", "ThawsUser"])

@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://bsriuxdkv67ak"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_jcobo"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_xx4vg"]
+
+[resource]
+script = ExtResource("2_xx4vg")
+name = &"Trump Card"
+power = 1
+max_power_points = 5
+description = "The fewer PP this move has, the greater its attack power."
+category = 1
+flags = Array[String](["Contact", "CanProtect", "CanMirrorMove"])

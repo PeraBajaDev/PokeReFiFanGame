@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://c3kyht2oi23ye"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_i3x2s"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_pc3v0"]
+
+[resource]
+script = ExtResource("2_pc3v0")
+name = &"Smokescreen"
+accuracy = 100
+max_power_points = 20
+description = "The user releases an obscuring cloud of smoke or ink. It reduces the target's accuracy."
+category = 2
+flags = Array[String](["CanProtect", "CanMirrorMove"])

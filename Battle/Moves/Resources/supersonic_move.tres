@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://3e87obaxh2ot"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_6irwy"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_sv0fo"]
+
+[resource]
+script = ExtResource("2_sv0fo")
+name = &"Supersonic"
+accuracy = 55
+max_power_points = 20
+description = "The user generates odd sound waves from its body. It may confuse the target."
+category = 2
+flags = Array[String](["CanProtect", "CanMirrorMove", "Sound"])

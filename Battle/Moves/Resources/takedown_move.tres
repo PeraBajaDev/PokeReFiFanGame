@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://t5314y2hlh5k"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_2ugw3"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_anqu0"]
+
+[resource]
+script = ExtResource("2_anqu0")
+name = &"Take Down"
+power = 90
+accuracy = 85
+max_power_points = 20
+description = "A reckless, full-body charge attack for slamming into the foe. It also damages the user a little."
+flags = Array[String](["Contact", "CanProtect", "CanMirrorMove"])

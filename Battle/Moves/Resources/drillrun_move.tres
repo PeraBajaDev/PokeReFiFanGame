@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://dxtfalkkaba1n"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_3tv8d"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_2puj7"]
+
+[resource]
+script = ExtResource("2_2puj7")
+name = &"Drill Run"
+power = 80
+accuracy = 95
+max_power_points = 10
+description = "The user crashes into its target while rotating its body like a drill. Critical hits land more easily."
+type = 8
+flags = Array[String](["Contact", "CanProtect", "CanMirrorMove", "HighCriticalHitRate"])

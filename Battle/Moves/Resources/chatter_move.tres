@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://ct443kjwovkk3"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_0t3d1"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_7r5gv"]
+
+[resource]
+script = ExtResource("2_7r5gv")
+name = &"Chatter"
+power = 65
+accuracy = 100
+max_power_points = 20
+description = "The user attacks using a sound wave based on words it has learned. It may also confuse the target."
+type = 9
+category = 1
+effect_chanche = 100
+flags = Array[String](["CanProtect", "CanMirrorMove", "Sound"])

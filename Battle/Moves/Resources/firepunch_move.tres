@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://dvn7ml4jgsugh"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_a6l00"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_syth1"]
+
+[resource]
+script = ExtResource("2_syth1")
+name = &"Fire Punch"
+power = 75
+accuracy = 100
+max_power_points = 15
+description = "The target is punched with a fiery fist. It may leave the target with a burn."
+type = 1
+effect_chanche = 10
+flags = Array[String](["Contact", "CanProtect", "CanMirrorMove", "Punching"])

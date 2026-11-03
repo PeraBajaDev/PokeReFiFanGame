@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://psajwuq8suj7"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_6xa0f"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_s858i"]
+
+[resource]
+script = ExtResource("2_s858i")
+name = &"Venoshock"
+power = 65
+accuracy = 100
+max_power_points = 10
+description = "The user drenches the foe in a special poisonous liquid. Its power doubles if the target is poisoned."
+type = 7
+category = 1
+flags = Array[String](["CanProtect", "CanMirrorMove"])

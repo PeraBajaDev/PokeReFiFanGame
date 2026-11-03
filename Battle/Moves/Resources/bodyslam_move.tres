@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://d26or7qhm30qs"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_hn4q2"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_5kjfv"]
+
+[resource]
+script = ExtResource("2_5kjfv")
+name = &"Body Slam"
+power = 85
+accuracy = 100
+max_power_points = 15
+description = "The user drops onto the target with its full body weight. It may leave the target with paralysis."
+effect_chanche = 30
+flags = Array[String](["Contact", "CanProtect", "CanMirrorMove", "TramplesMinimize"])

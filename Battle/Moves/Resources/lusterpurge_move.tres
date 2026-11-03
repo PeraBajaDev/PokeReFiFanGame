@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://bm1bxv3p2v2nf"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_x3ocx"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_4yue3"]
+
+[resource]
+script = ExtResource("2_4yue3")
+name = &"Luster Purge"
+power = 70
+accuracy = 100
+max_power_points = 5
+description = "The user lets loose a damaging burst of light. It may also reduce the target's Sp. Def stat."
+type = 10
+category = 1
+effect_chanche = 50
+flags = Array[String](["CanProtect", "CanMirrorMove"])

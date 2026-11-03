@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://dyjexm4e2aibr"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_luhre"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_m3hs8"]
+
+[resource]
+script = ExtResource("2_m3hs8")
+name = &"Natural Gift"
+power = 1
+accuracy = 100
+max_power_points = 15
+description = "The user draws power to attack by using its held Berry. The Berry determines its type and power."
+flags = Array[String](["CanProtect", "CanMirrorMove"])

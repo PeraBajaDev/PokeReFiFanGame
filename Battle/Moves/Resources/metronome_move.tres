@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://d26fn7bfyfk6a"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_6x2ab"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_vq5l6"]
+
+[resource]
+script = ExtResource("2_vq5l6")
+name = &"Metronome"
+max_power_points = 10
+description = "The user waggles a finger and stimulates its brain into randomly using nearly any move."
+category = 2

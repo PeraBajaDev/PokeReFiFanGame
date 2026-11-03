@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://cvvg7arwss5ur"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_7kt7t"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_b1ooa"]
+
+[resource]
+script = ExtResource("2_b1ooa")
+name = &"Echoed Voice"
+power = 40
+accuracy = 100
+max_power_points = 15
+description = "The user attacks the foe with an echoing voice. If this move is used every turn, it does greater damage."
+category = 1
+flags = Array[String](["CanProtect", "CanMirrorMove", "Sound"])

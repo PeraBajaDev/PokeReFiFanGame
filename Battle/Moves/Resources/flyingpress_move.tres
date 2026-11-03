@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://c4wrcql5wply1"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_ctpt7"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_jb0ug"]
+
+[resource]
+script = ExtResource("2_jb0ug")
+name = &"Flying Press"
+power = 100
+accuracy = 95
+max_power_points = 10
+description = "The user dives down onto the target from the sky. This move is Fighting and Flying type simultaneously."
+type = 6
+flags = Array[String](["Contact", "CanProtect", "CanMirrorMove", "TramplesMinimize"])

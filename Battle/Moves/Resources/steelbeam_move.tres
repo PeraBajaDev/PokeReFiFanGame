@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://tbh0e7e1152s"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_c2whw"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_tio18"]
+
+[resource]
+script = ExtResource("2_tio18")
+name = &"Steel Beam"
+power = 140
+accuracy = 95
+max_power_points = 5
+description = "The user fires a beam of steel that it collected from its entire body. This also damages the user."
+type = 16
+category = 1
+flags = Array[String](["CanProtect", "CanMirrorMove", "CannotMetronome"])

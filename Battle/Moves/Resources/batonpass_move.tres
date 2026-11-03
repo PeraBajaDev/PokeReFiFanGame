@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://dno2rtjt3clly"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_mhab7"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_l8vmd"]
+
+[resource]
+script = ExtResource("2_l8vmd")
+name = &"Baton Pass"
+max_power_points = 40
+description = "The user switches places with a party Pokémon in waiting, passing along any stat changes."
+category = 2

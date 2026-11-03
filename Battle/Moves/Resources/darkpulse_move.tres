@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://cyhiq4wvayv41"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_7woqv"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_i36ed"]
+
+[resource]
+script = ExtResource("2_i36ed")
+name = &"Dark Pulse"
+power = 80
+accuracy = 100
+max_power_points = 15
+description = "The user releases a horrible aura imbued with dark thoughts. It may also make the target flinch."
+type = 15
+category = 1
+effect_chanche = 20
+flags = Array[String](["CanProtect", "CanMirrorMove", "Pulse"])

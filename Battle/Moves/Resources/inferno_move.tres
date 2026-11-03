@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://yg8vhowmaw2v"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_2156q"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_f0xwd"]
+
+[resource]
+script = ExtResource("2_f0xwd")
+name = &"Inferno"
+power = 100
+accuracy = 50
+max_power_points = 5
+description = "The user attacks by engulfing the target in an intense fire. It leaves the target with a burn."
+type = 1
+category = 1
+effect_chanche = 100
+flags = Array[String](["CanProtect", "CanMirrorMove"])

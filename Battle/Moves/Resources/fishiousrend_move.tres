@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://pifr7snv05ba"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_1d1vn"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_kplj4"]
+
+[resource]
+script = ExtResource("2_kplj4")
+name = &"Fishious Rend"
+power = 85
+accuracy = 100
+max_power_points = 10
+description = "The user rends the target with its hard gills. Power doubles if the user moves first."
+type = 2
+flags = Array[String](["Contact", "CanProtect", "CanMirrorMove"])

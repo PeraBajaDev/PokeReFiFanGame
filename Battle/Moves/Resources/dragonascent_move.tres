@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://crml87mg6h6ax"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_rteh3"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_hv43f"]
+
+[resource]
+script = ExtResource("2_hv43f")
+name = &"Dragon Ascent"
+power = 120
+accuracy = 100
+max_power_points = 5
+description = "The user soars upward and drops at high speeds. Its Defense and Sp. Def stats are lowered."
+type = 9
+flags = Array[String](["Contact", "CanProtect", "CanMirrorMove", "CannotMetronome"])

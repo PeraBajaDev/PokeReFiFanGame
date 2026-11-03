@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://cm3tga72sp4eq"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_rlwrn"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_sbt22"]
+
+[resource]
+script = ExtResource("2_sbt22")
+name = &"Ice Shard"
+power = 40
+accuracy = 100
+max_power_points = 30
+description = "The user flash freezes chunks of ice and hurls them at the target. This move always goes first."
+type = 5
+priority = 1
+flags = Array[String](["CanProtect", "CanMirrorMove"])

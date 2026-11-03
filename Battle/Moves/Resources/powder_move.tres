@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://c2gnq3c7ww6ph"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_gpmlm"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_p2npl"]
+
+[resource]
+script = ExtResource("2_p2npl")
+name = &"Powder"
+accuracy = 100
+max_power_points = 20
+description = "The target is covered in a powder that explodes and damages it if it uses a Fire-type move."
+type = 11
+category = 2
+flags = Array[String](["CanProtect", "CanMirrorMove", "Powder"])

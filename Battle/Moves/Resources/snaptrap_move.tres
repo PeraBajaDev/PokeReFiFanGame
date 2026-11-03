@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://dr6gyvypqr28q"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_snl1r"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_7mwep"]
+
+[resource]
+script = ExtResource("2_7mwep")
+name = &"Snap Trap"
+power = 35
+accuracy = 100
+max_power_points = 15
+description = "The user snares the target in a snap trap for four to five turns."
+type = 4
+flags = Array[String](["Contact", "CanProtect", "CanMirrorMove", "CannotMetronome"])

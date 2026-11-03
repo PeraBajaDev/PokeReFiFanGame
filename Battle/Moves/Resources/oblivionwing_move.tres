@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://d00nb5rub602d"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_7rh7v"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_14kyo"]
+
+[resource]
+script = ExtResource("2_14kyo")
+name = &"Oblivion Wing"
+power = 80
+accuracy = 100
+max_power_points = 10
+description = "The user absorbs its target's HP. The user's HP is restored by over half of the damage dealt."
+type = 9
+category = 1
+flags = Array[String](["CanProtect", "CanMirrorMove"])

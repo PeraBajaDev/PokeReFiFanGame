@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://86b2gqs3pmnr"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_11shv"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_46rwb"]
+
+[resource]
+script = ExtResource("2_46rwb")
+name = &"Magma Storm"
+power = 100
+accuracy = 75
+max_power_points = 5
+description = "The target becomes trapped within a maelstrom of fire that rages for four to five turns."
+type = 1
+category = 1
+flags = Array[String](["CanProtect", "CanMirrorMove"])

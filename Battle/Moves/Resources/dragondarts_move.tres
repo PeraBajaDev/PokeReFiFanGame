@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://ba2yd0kl0oimy"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_q6y2u"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_kxg8f"]
+
+[resource]
+script = ExtResource("2_kxg8f")
+name = &"Dragon Darts"
+power = 50
+accuracy = 100
+max_power_points = 10
+description = "The user attacks twice using Dreepy. If there are two targets, this move hits each one once."
+type = 14
+flags = Array[String](["CanProtect", "CanMirrorMove"])

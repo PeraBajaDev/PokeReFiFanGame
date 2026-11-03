@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://bngjhj0okt44d"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_dp8rm"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_f37py"]
+
+[resource]
+script = ExtResource("2_f37py")
+name = &"Thunder Punch"
+power = 75
+accuracy = 100
+max_power_points = 15
+description = "The target is punched with an electrified fist. It may also leave the target with paralysis."
+type = 3
+effect_chanche = 10
+flags = Array[String](["Contact", "CanProtect", "CanMirrorMove", "Punching"])

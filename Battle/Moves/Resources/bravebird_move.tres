@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://bex47v0v380nq"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_rx546"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_6c88m"]
+
+[resource]
+script = ExtResource("2_6c88m")
+name = &"Brave Bird"
+power = 120
+accuracy = 100
+max_power_points = 15
+description = "The user tucks in its wings and charges from a low altitude. The user also takes serious damage."
+type = 9
+flags = Array[String](["Contact", "CanProtect", "CanMirrorMove"])

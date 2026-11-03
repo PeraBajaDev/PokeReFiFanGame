@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://dxhobco6oueg2"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_k1l4h"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_3p121"]
+
+[resource]
+script = ExtResource("2_3p121")
+name = &"Slam"
+power = 80
+accuracy = 75
+max_power_points = 20
+description = "The target is slammed with a long tail, vines, etc., to inflict damage."
+flags = Array[String](["Contact", "CanProtect", "CanMirrorMove"])

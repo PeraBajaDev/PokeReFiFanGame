@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://dc3r8tdo3uel4"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_2hsnb"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_0wtv5"]
+
+[resource]
+script = ExtResource("2_0wtv5")
+name = &"King\'s Shield"
+max_power_points = 10
+description = "Protects itself from damage. It also harshly lowers the Attack of attackers that make contact."
+type = 16
+category = 2
+priority = 4

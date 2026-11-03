@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://dvycjt8viny3c"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_52j1t"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_s6hhm"]
+
+[resource]
+script = ExtResource("2_s6hhm")
+name = &"Shell Side Arm"
+power = 90
+accuracy = 100
+max_power_points = 10
+description = "Inflicts physical or special damage, whichever will be more effective. May also poison the target."
+type = 7
+category = 1
+effect_chanche = 20
+flags = Array[String](["CanProtect", "CanMirrorMove"])

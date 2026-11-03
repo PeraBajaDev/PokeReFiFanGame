@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://dfjj3386gut2s"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_a8r0r"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_kiena"]
+
+[resource]
+script = ExtResource("2_kiena")
+name = &"Freezing Glare"
+power = 90
+accuracy = 100
+max_power_points = 10
+description = "The user shoots its psychic power from its eyes to attack. This may also leave the target frozen."
+type = 10
+category = 1
+effect_chanche = 10
+flags = Array[String](["CanProtect", "CanMirrorMove", "CannotMetronome"])

@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://ceuv5f4gsxskt"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_57psn"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_qtsh1"]
+
+[resource]
+script = ExtResource("2_qtsh1")
+name = &"High Jump Kick"
+power = 130
+accuracy = 90
+max_power_points = 10
+description = "The target is attacked with a knee kick from a jump. If it misses, the user is hurt instead."
+type = 6
+flags = Array[String](["Contact", "CanProtect", "CanMirrorMove"])

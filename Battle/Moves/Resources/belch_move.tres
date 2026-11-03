@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://bejkvrvb38mee"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_th0xo"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_mxl05"]
+
+[resource]
+script = ExtResource("2_mxl05")
+name = &"Belch"
+power = 120
+accuracy = 90
+max_power_points = 10
+description = "The user lets out a damaging belch at the target. The user must eat a held Berry to use this move."
+type = 7
+category = 1
+flags = Array[String](["CanProtect"])

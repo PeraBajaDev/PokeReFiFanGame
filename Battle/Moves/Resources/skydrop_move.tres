@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://cq0ymukpwjxls"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_8skx3"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_ln42r"]
+
+[resource]
+script = ExtResource("2_ln42r")
+name = &"Sky Drop"
+power = 60
+accuracy = 100
+max_power_points = 10
+description = "The user takes the foe into the sky, then drops it on the next turn. The foe cannot attack while airborne."
+type = 9
+flags = Array[String](["Contact", "CanProtect", "CanMirrorMove"])

@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://bgj3lkx2khdf5"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_hw6nb"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_4p0sh"]
+
+[resource]
+script = ExtResource("2_4p0sh")
+name = &"Razor Leaf"
+power = 55
+accuracy = 95
+max_power_points = 25
+description = "Sharp-edged leaves are launched to slash at the opposing team. Critical hits land more easily."
+type = 4
+flags = Array[String](["CanProtect", "CanMirrorMove", "HighCriticalHitRate"])

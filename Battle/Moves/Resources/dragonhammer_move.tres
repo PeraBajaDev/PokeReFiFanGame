@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://cds2vjyfn1u01"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_djke2"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_ilkf7"]
+
+[resource]
+script = ExtResource("2_ilkf7")
+name = &"Dragon Hammer"
+power = 90
+accuracy = 100
+max_power_points = 15
+description = "The user uses its body like a hammer to attack the target and inflict damage."
+type = 14
+flags = Array[String](["Contact", "CanProtect", "CanMirrorMove"])

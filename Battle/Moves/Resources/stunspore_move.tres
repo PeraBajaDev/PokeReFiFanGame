@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://cchyo82rxgdh6"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_w820s"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_migvi"]
+
+[resource]
+script = ExtResource("2_migvi")
+name = &"Stun Spore"
+accuracy = 75
+max_power_points = 30
+description = "The user scatters a cloud of paralyzing powder. It may leave the target with paralysis."
+type = 4
+category = 2
+flags = Array[String](["CanProtect", "CanMirrorMove", "Powder"])

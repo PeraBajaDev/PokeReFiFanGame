@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://cdeublrtbofg8"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_ar4r3"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_07lj7"]
+
+[resource]
+script = ExtResource("2_07lj7")
+name = &"Snore"
+power = 50
+accuracy = 100
+max_power_points = 15
+description = "An attack that can be used only if the user is asleep. The harsh noise may also make the target flinch."
+category = 1
+effect_chanche = 30
+flags = Array[String](["CanProtect", "CanMirrorMove", "Sound"])

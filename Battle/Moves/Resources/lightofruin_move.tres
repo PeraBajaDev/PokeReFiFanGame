@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://1i4g8o63fxgo"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_j0iqp"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_oxt53"]
+
+[resource]
+script = ExtResource("2_oxt53")
+name = &"Light of Ruin"
+power = 140
+accuracy = 90
+max_power_points = 5
+description = "Fires a powerful beam of light drawn from the Eternal Flower. It also damages the user a lot."
+type = 17
+category = 1
+flags = Array[String](["CanProtect", "CanMirrorMove", "CannotMetronome"])

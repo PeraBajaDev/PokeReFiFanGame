@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://ssdnvlcujycl"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_au0js"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_p6qxc"]
+
+[resource]
+script = ExtResource("2_p6qxc")
+name = &"Low Sweep"
+power = 65
+accuracy = 100
+max_power_points = 20
+description = "The user attacks the target's legs swiftly, reducing the target's Speed stat."
+type = 6
+effect_chanche = 100
+flags = Array[String](["Contact", "CanProtect", "CanMirrorMove"])

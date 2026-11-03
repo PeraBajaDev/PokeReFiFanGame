@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="MoveResource" format=3 uid="uid://ckpei43q5jojq"]
+
+[ext_resource type="Script" uid="uid://ctm2jm8fwg2lc" path="res://Battle/Moves/Effects/Scripts/move_effect.gd" id="1_wgcqt"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="2_pj6as"]
+
+[resource]
+script = ExtResource("2_pj6as")
+name = &"Tri Attack"
+power = 80
+accuracy = 100
+max_power_points = 10
+description = "The user strikes with a simultaneous three-beam attack. May also paralyze, burn, or freeze the target."
+category = 1
+effect_chanche = 20
+flags = Array[String](["CanProtect", "CanMirrorMove"])
